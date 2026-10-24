@@ -1,5 +1,6 @@
 // Synthesise IPA to a WAV file from the command line, using the same pipeline
 // as the extension:  node scripts/say.mjs "/ˈwɪkɪpiːdiə/" out.wav [rate]
+// Set IPA_VOICE to use another voice in models/, e.g. IPA_VOICE=en_GB-alan-medium.
 import { readFile, writeFile } from 'node:fs/promises';
 import * as ort from 'onnxruntime-node';
 import { PiperVoice } from '../src/piper.js';
@@ -10,7 +11,8 @@ if (!ipa) {
   process.exit(1);
 }
 
-const model = new URL('../models/en_US-lessac-medium.onnx', import.meta.url);
+const voiceName = process.env.IPA_VOICE ?? 'en_US-lessac-medium';
+const model = new URL(`../models/${voiceName}.onnx`, import.meta.url);
 const config = JSON.parse(await readFile(new URL(model.href + '.json')));
 const session = await ort.InferenceSession.create((await readFile(model)).buffer);
 const voice = new PiperVoice(ort, session, config);
