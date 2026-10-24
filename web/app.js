@@ -3,7 +3,7 @@ import { PiperVoice } from '../src/piper.js';
 // Standalone page version of the extension, for phones and anywhere else the
 // extension can't run. Open with ?ipa=... to prefill (used by the iOS Shortcut).
 
-const VOICE_URL = 'https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx';
+const VOICE_URL = 'https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/alan/medium/en_GB-alan-medium.onnx';
 const CACHE = 'ipa-speaker-v1';
 const SLOW_RATE = 0.6;
 
@@ -40,6 +40,13 @@ async function cachedArrayBuffer(url, onProgress) {
   await cache?.put(url, new Response(buffer)).catch(() => {});
   return buffer;
 }
+
+// Drop voices cached by earlier versions of the page.
+caches.open(CACHE).then(async (cache) => {
+  for (const req of await cache.keys()) {
+    if (!req.url.startsWith(VOICE_URL)) await cache.delete(req);
+  }
+}).catch(() => {});
 
 const voicePromise = (async () => {
   status.textContent = 'Loading voice…';

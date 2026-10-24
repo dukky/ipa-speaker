@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { ipaToIds } from '../src/ipa.js';
 
 const { phoneme_id_map: idMap } = JSON.parse(
-  readFileSync(new URL('../models/en_US-lessac-medium.onnx.json', import.meta.url)));
+  readFileSync(new URL('../models/en_GB-alan-medium.onnx.json', import.meta.url)));
 const phonemes = (ipa) => ipaToIds(ipa, idMap).phonemes.join('');
 
 test('strips delimiters, syllable dots and optional-sound parens', () => {

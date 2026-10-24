@@ -3,7 +3,7 @@
 import { copyFile, mkdir, writeFile, access } from 'node:fs/promises';
 
 const root = new URL('../', import.meta.url);
-const VOICE = 'https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx';
+const VOICE = 'https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/alan/medium/en_GB-alan-medium.onnx';
 
 await mkdir(new URL('vendor/', root), { recursive: true });
 for (const file of ['ort.wasm.min.js', 'ort-wasm-simd-threaded.mjs', 'ort-wasm-simd-threaded.wasm']) {

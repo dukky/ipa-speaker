@@ -37,4 +37,4 @@ npm run say -- "/ˈwɪkɪpiːdiə/" out.wav 0.6   # synthesise from the CLI (rat
 
 ## License
 
-Code: [Apache-2.0](LICENSE). The Piper voice downloaded by `npm run setup` has its own license; see its [model card](https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/lessac/medium/MODEL_CARD).
+Code: [Apache-2.0](LICENSE). The Piper voice downloaded by `npm run setup` has its own license; see its [model card](https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_GB/alan/medium/MODEL_CARD).

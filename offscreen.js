@@ -1,6 +1,6 @@
 import { PiperVoice } from './src/piper.js';
 
-const MODEL = 'models/en_US-lessac-medium.onnx';
+const MODEL = 'models/en_GB-alan-medium.onnx';
 
 const ort = globalThis.ort;
 ort.env.wasm.wasmPaths = chrome.runtime.getURL('vendor/');

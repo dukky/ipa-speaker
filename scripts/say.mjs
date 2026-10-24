@@ -11,7 +11,7 @@ if (!ipa) {
   process.exit(1);
 }
 
-const voiceName = process.env.IPA_VOICE ?? 'en_US-lessac-medium';
+const voiceName = process.env.IPA_VOICE ?? 'en_GB-alan-medium';
 const model = new URL(`../models/${voiceName}.onnx`, import.meta.url);
 const config = JSON.parse(await readFile(new URL(model.href + '.json')));
 const session = await ort.InferenceSession.create((await readFile(model)).buffer);
