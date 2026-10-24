@@ -21,6 +21,13 @@ Then in Chrome: `chrome://extensions` → Developer mode → Load unpacked → t
 - Select IPA on any page → right-click → **Speak as IPA**.
 - Toolbar popup: paste IPA and press Speak.
 
+## On a phone
+
+`web/` is a standalone page with the same engine, published at
+<https://dukky.github.io/ipa-speaker/web/>. It downloads the voice from Hugging Face
+once and caches it. Open it with `?ipa=/ˈpærɪs/` to prefill; the page has steps for
+an iOS Shortcut that sends selected IPA there from the share sheet.
+
 ## Development
 
 ```sh

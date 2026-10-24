@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPA Speaker</title>
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1b1a18" media="(prefers-color-scheme: dark)">
+<style>
+  :root {
+    --bg: #f7f5f0; --fg: #1d1c1a; --muted: #6e6a62; --line: #dcd7cc;
+    --accent: #2f5d8a; --accent-fg: #fff; --field: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b1a18; --fg: #ecE8df; --muted: #9c978c; --line: #3a3833;
+      --accent: #8fb6dc; --accent-fg: #10161c; --field: #24221f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.5 system-ui, -apple-system, sans-serif;
+  }
+  main { max-width: 34rem; margin: 0 auto; padding: 2rem 16px 3rem; }
+  h1 { font-size: 1.25rem; margin: 0 0 0.25rem; }
+  .lede { color: var(--muted); margin: 0 0 1.5rem; }
+  .ipa { font-family: 'Charis SIL', 'Doulos SIL', 'Gentium Plus', 'Times New Roman', serif; }
+  textarea {
+    width: 100%; min-height: 5.5rem; padding: 0.75rem; resize: vertical;
+    font-size: 1.6rem; line-height: 1.3; color: var(--fg); background: var(--field);
+    border: 1px solid var(--line); border-radius: 10px;
+  }
+  textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .actions { display: grid; grid-template-columns: 2fr 1fr; gap: 10px; margin-top: 12px; }
+  button {
+    font: inherit; font-weight: 600; padding: 0.9rem; border-radius: 10px; cursor: pointer;
+    border: 1px solid var(--accent); background: var(--accent); color: var(--accent-fg);
+  }
+  button.secondary { background: transparent; color: var(--accent); }
+  button:disabled { opacity: 0.5; cursor: progress; }
+  #status { min-height: 1.5em; margin: 12px 0 0; color: var(--muted); font-size: 0.9rem; }
+  h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 2rem 0 0.5rem; }
+  .examples { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+  .examples button {
+    font-weight: 400; padding: 0.4rem 0.7rem; font-size: 1.05rem;
+    background: var(--field); color: var(--fg); border-color: var(--line);
+  }
+  details { margin-top: 2rem; color: var(--muted); font-size: 0.9rem; }
+  summary { cursor: pointer; color: var(--fg); }
+  ol { padding-left: 1.25rem; }
+  code { font-size: 0.85em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>IPA Speaker</h1>
+  <p class="lede">Paste an IPA transcription and hear it. Runs entirely on your device.</p>
+
+  <textarea id="ipa" class="ipa" placeholder="/ˌwɪkɪˈpiːdiə/" autocapitalize="off" autocomplete="off" spellcheck="false"></textarea>
+  <div class="actions">
+    <button id="play">▶ Play</button>
+    <button id="slow" class="secondary">Slow</button>
+  </div>
+  <p id="status" role="status"></p>
+
+  <h2>Try</h2>
+  <ul class="examples ipa">
+    <li><button>/ˈpærɪs/</button></li>
+    <li><button>[paʁi]</button></li>
+    <li><button>/bɜːrˈlɪn/</button></li>
+    <li><button>[bɛʁˈliːn]</button></li>
+    <li><button>/ˈʃwɔːrtsənɛɡər/</button></li>
+    <li><button>/pɹəˌnʌn.siˈeɪ.ʃən/</button></li>
+  </ul>
+
+  <details>
+    <summary>Use from the iPhone share sheet</summary>
+    <ol>
+      <li>In the Shortcuts app, create a shortcut and turn on <b>Show in Share Sheet</b>, accepting <b>Text</b>.</li>
+      <li>Add <b>URL Encode</b> on the Shortcut Input.</li>
+      <li>Add <b>Text</b>: <code>https://dukky.github.io/ipa-speaker/web/?ipa=</code> followed by the URL Encoded Text variable.</li>
+      <li>Add <b>Open URLs</b>.</li>
+    </ol>
+    <p>Then select IPA anywhere, tap Share, pick the shortcut, and tap Play.</p>
+  </details>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/ort.wasm.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
