@@ -27,3 +27,7 @@ Then in Chrome: `chrome://extensions` → Developer mode → Load unpacked → t
 npm test                                     # IPA front-end tests
 npm run say -- "/ˈwɪkɪpiːdiə/" out.wav 0.6   # synthesise from the CLI (rate optional)
 ```
+
+## License
+
+Code: [Apache-2.0](LICENSE). The Piper voice downloaded by `npm run setup` has its own license; see its [model card](https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/lessac/medium/MODEL_CARD).
