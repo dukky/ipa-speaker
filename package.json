@@ -1,0 +1,19 @@
+{
+  "name": "ipa-speaker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "setup": "node scripts/setup.mjs",
+    "say": "node scripts/say.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "onnxruntime-node": "^1.20.1",
+    "onnxruntime-web": "^1.20.1"
+  },
+  "type": "module"
+}

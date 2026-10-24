@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body { width: 280px; margin: 12px; font: 14px system-ui, sans-serif; }
+  textarea { box-sizing: border-box; width: 100%; height: 4em; font: 18px 'Charis SIL', 'Doulos SIL', serif; }
+  .row { display: flex; gap: 8px; margin-top: 8px; }
+  button { flex: 1; padding: 6px; }
+  #status { margin-top: 8px; color: #888; min-height: 1.2em; }
+</style>
+<textarea id="ipa" placeholder="Paste IPA, e.g. /ˌwɪkɪˈpiːdiə/" autofocus></textarea>
+<div class="row">
+  <button id="speak">Speak</button>
+  <button id="slow">Slow</button>
+</div>
+<div id="status"></div>
+<script type="module" src="popup.js"></script>
