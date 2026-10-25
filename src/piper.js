@@ -15,7 +15,7 @@ export class PiperVoice {
 
   /** @returns {Promise<{ samples: Float32Array, dropped: string[] }>} */
   async synthesize(ipa, { rate = 1 } = {}) {
-    const { ids, phonemes, dropped } = ipaToIds(ipa, this.config.phoneme_id_map);
+    const { ids, phonemes, dropped } = ipaToIds(ipa, this.config.phoneme_id_map, this.config.espeak?.voice);
     if (!phonemes.length) return { samples: new Float32Array(0), dropped };
 
     const { Tensor } = this.ort;
