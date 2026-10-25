@@ -5,7 +5,7 @@
 // Characters that only carry notation, not sound.
 const STRUCTURAL = new Set([
   '/', '[', ']', '⟨', '⟩', '(', ')', // transcription delimiters, optional-sound parens
-  '.', '‿', // syllable break, linking
+  '.', '‿', '-', // syllable break, linking, leftover partial-form hyphens
   '͡', '͜', // tie bars (t͡ʃ -> tʃ)
   '​', '‌', '‍', // zero-width characters
 ]);
@@ -13,15 +13,52 @@ const STRUCTURAL = new Set([
 // Symbols with an equivalent spelling the voice knows.
 const SUBSTITUTIONS = {
   g: 'ɡ', // ASCII g -> IPA script g (U+0261)
-  "'": 'ˈ', '’': 'ˈ', ',': 'ˌ', ':': 'ː', '˸': 'ː',
+  "'": 'ˈ', '’': 'ˈ', ':': 'ː', '˸': 'ː',
   ʧ: 'tʃ', ʤ: 'dʒ', ʦ: 'ts', ʣ: 'dz', ʨ: 'tɕ', ʥ: 'dʑ',
   ɝ: 'ɜ˞', ɩ: 'ɪ', ɷ: 'ʊ', ɼ: 'r',
   ʷ: 'w', ˡ: 'l', ⁿ: 'n', ʱ: 'ʰ', ˀ: 'ʔ',
   '|': ' ', '‖': ' ',
 };
 
+const SOUNDLESS = /[ˈˌːˑ̀-ͯ]/u; // stress, length and combining marks
+
 /**
- * @param {string} raw IPA text, e.g. "/ˈʃwɔːrtsən(ˌ)ɛɡər/"
+ * Splits a transcription listing alternatives into separate pronunciations,
+ * expanding Wikipedia's partial forms against the first full one:
+ *   "/ˈmɔːlvərn, ˈmɒl-/"      -> ["ˈmɔːlvərn", "ˈmɒlvərn"]
+ *   "/ˈɡlɑːstənbəri, -bɛri/"  -> ["ˈɡlɑːstənbəri", "ˈɡlɑːstənbɛri"]
+ * @param {string} raw
+ * @returns {string[]}
+ */
+export function splitVariants(raw) {
+  const variants = raw.normalize('NFD').replace(/[/[\]⟨⟩]/g, '')
+    .split(/[,;~]/).map((v) => v.trim()).filter(Boolean);
+  const full = variants.find((v) => !v.startsWith('-') && !v.endsWith('-'));
+  if (!full) return variants;
+  return variants.map((v) => expandPartial(v, full));
+}
+
+// "ˈmɒl-" replaces the start of the full form up to its matching "l";
+// "-bɛri" replaces the end of the full form from its last "b".
+function expandPartial(variant, full) {
+  const leading = variant.endsWith('-');
+  const trailing = variant.startsWith('-');
+  if (leading === trailing) return variant; // full form, or "-x-" which we can't place
+  const part = variant.replace(/-/g, '');
+  const sounds = [...part].filter((c) => !SOUNDLESS.test(c));
+  if (leading) {
+    const i = full.indexOf(sounds.at(-1));
+    return i < 0 ? part : part + full.slice(i + 1);
+  }
+  const i = full.lastIndexOf(sounds[0]);
+  if (i < 0) return part;
+  const prefix = full.slice(0, i);
+  // Use the partial's own stress mark rather than the full form's.
+  return (/^[ˈˌ]/.test(part) ? prefix.replace(/[ˈˌ]$/, '') : prefix) + part;
+}
+
+/**
+ * @param {string} raw IPA text for a single pronunciation, e.g. "/ˈʃwɔːrtsən(ˌ)ɛɡər/"
  * @param {Record<string, number[]>} idMap a Piper voice's phoneme_id_map
  * @param {string} [language] the voice's espeak language (config.espeak.voice),
  *   which enables accent-specific rules, e.g. "en-gb-x-rp"

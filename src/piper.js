@@ -1,4 +1,6 @@
-import { ipaToIds } from './ipa.js';
+import { ipaToIds, splitVariants } from './ipa.js';
+
+const VARIANT_GAP_SECONDS = 0.5;
 
 // Runs a Piper (VITS) voice on IPA input. `ort` is onnxruntime-web in the
 // extension and onnxruntime-node in scripts, which share the same API.
@@ -13,8 +15,27 @@ export class PiperVoice {
     return this.config.audio.sample_rate;
   }
 
-  /** @returns {Promise<{ samples: Float32Array, dropped: string[] }>} */
+  /**
+   * Speaks each alternative pronunciation in turn ("/ˈmɔːlvərn, ˈmɒl-/").
+   * @returns {Promise<{ samples: Float32Array, dropped: string[] }>}
+   */
   async synthesize(ipa, { rate = 1 } = {}) {
+    const gap = new Float32Array(Math.round(this.sampleRate * VARIANT_GAP_SECONDS));
+    const parts = [];
+    const dropped = new Set();
+    for (const variant of splitVariants(ipa)) {
+      const result = await this.#synthesizeOne(variant, rate);
+      result.dropped.forEach((d) => dropped.add(d));
+      if (!result.samples.length) continue;
+      if (parts.length) parts.push(gap);
+      parts.push(result.samples);
+    }
+    const samples = new Float32Array(parts.reduce((n, p) => n + p.length, 0));
+    parts.reduce((offset, p) => (samples.set(p, offset), offset + p.length), 0);
+    return { samples, dropped: [...dropped] };
+  }
+
+  async #synthesizeOne(ipa, rate) {
     const { ids, phonemes, dropped } = ipaToIds(ipa, this.config.phoneme_id_map, this.config.espeak?.voice);
     if (!phonemes.length) return { samples: new Float32Array(0), dropped };
 

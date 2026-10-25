@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { ipaToIds } from '../src/ipa.js';
+import { ipaToIds, splitVariants } from '../src/ipa.js';
 
 const { phoneme_id_map: idMap } = JSON.parse(
   readFileSync(new URL('../models/en_GB-alan-medium.onnx.json', import.meta.url)));
@@ -52,4 +52,14 @@ test('collapses whitespace and frames with BOS/PAD/EOS', () => {
   assert.deepEqual(p, ['a', ' ', 'b']);
   const [bos, pad, eos, a, sp, b] = ['^', '_', '$', 'a', ' ', 'b'].map((k) => idMap[k][0]);
   assert.deepEqual(ids, [bos, a, pad, sp, pad, b, pad, eos]);
+});
+
+test('splits alternative pronunciations and expands partial forms', () => {
+  const nfc = (ipa) => splitVariants(ipa).map((v) => v.normalize('NFC'));
+  assert.deepEqual(nfc('/ˈmɔːlvərn, ˈmɒl-/'), ['ˈmɔːlvərn', 'ˈmɒlvərn']);
+  assert.deepEqual(nfc('/ˈɡlɑːstənbəri, -bɛri/'), ['ˈɡlɑːstənbəri', 'ˈɡlɑːstənbɛri']);
+  assert.deepEqual(nfc('/ˌæləˈbɑːmə, -ˈbæmə/'), ['ˌæləˈbɑːmə', 'ˌæləˈbæmə']);
+  assert.deepEqual(nfc('[ʃtʁaːsə ~ ʃtʁasə]'), ['ʃtʁaːsə', 'ʃtʁasə']);
+  assert.deepEqual(nfc('/ˈpærɪs/'), ['ˈpærɪs']);
+  assert.deepEqual(nfc('/-ˈbæmə/'), ['-ˈbæmə']); // nothing to expand against
 });
