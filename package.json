@@ -5,7 +5,8 @@
   "scripts": {
     "test": "node --test",
     "setup": "node scripts/setup.mjs",
-    "say": "node scripts/say.mjs"
+    "say": "node scripts/say.mjs",
+    "check:wikipedia": "node scripts/check-wikipedia.mjs"
   },
   "keywords": [],
   "author": "",

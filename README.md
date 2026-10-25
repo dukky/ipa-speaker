@@ -31,9 +31,31 @@ an iOS Shortcut that sends selected IPA there from the share sheet.
 ## Development
 
 ```sh
-npm test                                     # IPA front-end tests
+npm test                                     # IPA front-end tests, incl. reviewed Wikipedia cases
 npm run say -- "/ˈwɪkɪpiːdiə/" out.wav 0.6   # synthesise from the CLI (rate optional)
+IPA_VOICE=en_GB-cori-medium npm run say -- "/ˈpærɪs/"   # try another voice in models/
 ```
+
+### How the IPA is prepared
+
+Piper voices are trained on [espeak-ng](https://github.com/espeak-ng/espeak-ng)'s
+IPA, which writes some things differently from Wikipedia (stress marks before the
+vowel, `ɹ` for English r, no r in British accents where it isn't pronounced).
+`src/ipa.js` rewrites Wikipedia-style IPA to match. To see how espeak-ng itself
+transcribes a word, for comparison (optional, macOS):
+
+```sh
+brew install espeak-ng
+espeak-ng -q --ipa -v en-gb-x-rp "Glastonbury"
+```
+
+Wikipedia also lists alternative pronunciations with partial forms, e.g.
+`/ˈmɔːlvərn, ˈmɒl-/`. `splitVariants` expands these by aligning the partial
+against the full form. `npm run check:wikipedia` collects every partial it can
+find on Wikipedia (around 500 articles, takes a few minutes), and reports any
+expansion that's new or differs from the reviewed set in
+`test/fixtures/wikipedia-partials.json`. After reviewing the report, save it
+with `npm run check:wikipedia -- --update`.
 
 ## License
 

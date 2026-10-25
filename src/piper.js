@@ -17,13 +17,15 @@ export class PiperVoice {
 
   /**
    * Speaks each alternative pronunciation in turn ("/ˈmɔːlvərn, ˈmɒl-/").
+   * @param {string} [options.context] nearby transcriptions to expand partial
+   *   forms against (see splitVariants)
    * @returns {Promise<{ samples: Float32Array, dropped: string[] }>}
    */
-  async synthesize(ipa, { rate = 1 } = {}) {
+  async synthesize(ipa, { rate = 1, context = '' } = {}) {
     const gap = new Float32Array(Math.round(this.sampleRate * VARIANT_GAP_SECONDS));
     const parts = [];
     const dropped = new Set();
-    for (const variant of splitVariants(ipa)) {
+    for (const variant of splitVariants(ipa, context)) {
       const result = await this.#synthesizeOne(variant, rate);
       result.dropped.forEach((d) => dropped.add(d));
       if (!result.samples.length) continue;

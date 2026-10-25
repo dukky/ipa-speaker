@@ -22,9 +22,9 @@ function loadVoice() {
   return voicePromise;
 }
 
-async function speak(ipa, rate) {
+async function speak(ipa, rate, context) {
   const voice = await loadVoice();
-  const { samples, dropped } = await voice.synthesize(ipa, { rate });
+  const { samples, dropped } = await voice.synthesize(ipa, { rate, context });
   if (!samples.length) return { ok: false, error: 'No speakable IPA found', dropped };
 
   audioCtx ??= new AudioContext();
@@ -40,6 +40,6 @@ async function speak(ipa, rate) {
 
 chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
   if (msg.target !== 'offscreen' || msg.type !== 'speak') return;
-  speak(msg.ipa, msg.rate).then(sendResponse, (err) => sendResponse({ ok: false, error: String(err) }));
+  speak(msg.ipa, msg.rate, msg.context).then(sendResponse, (err) => sendResponse({ ok: false, error: String(err) }));
   return true;
 });

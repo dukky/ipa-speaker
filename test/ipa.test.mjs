@@ -61,5 +61,19 @@ test('splits alternative pronunciations and expands partial forms', () => {
   assert.deepEqual(nfc('/ˌæləˈbɑːmə, -ˈbæmə/'), ['ˌæləˈbɑːmə', 'ˌæləˈbæmə']);
   assert.deepEqual(nfc('[ʃtʁaːsə ~ ʃtʁasə]'), ['ʃtʁaːsə', 'ʃtʁasə']);
   assert.deepEqual(nfc('/ˈpærɪs/'), ['ˈpærɪs']);
-  assert.deepEqual(nfc('/-ˈbæmə/'), ['-ˈbæmə']); // nothing to expand against
+  assert.deepEqual(nfc('/-ˈbæmə/'), ['ˈbæmə']); // nothing to expand against
+});
+
+test('expands a partial in its own transcription against the context', () => {
+  const nfc = (ipa, ctx) => splitVariants(ipa, ctx).map((v) => v.normalize('NFC'));
+  assert.deepEqual(nfc('/-.ʃɪər/', '/ˈhɑːrt.fərd.ʃər/'), ['ˈhɑːrt.fərd.ʃɪər']); // Hertfordshire
+  assert.deepEqual(nfc('/ˈbɒ-/', '/ˈbɔːstən/'), ['ˈbɒstən']);
+  // A partial ending "ˌ-" in the context is not the ˌ-for-comma typo.
+  assert.deepEqual(nfc('/ɛˌ-/', '/eɪˌ-/, /ɪˌmiːliə roʊˈmɑːnjə/'), ['ɛˌmiːliə roʊˈmɑːnjə']);
+});
+
+test('fixes ˌ typed for the comma between variants', () => {
+  const nfc = (ipa) => splitVariants(ipa).map((v) => v.normalize('NFC'));
+  assert.deepEqual(nfc('/ˈwɪɡtənˌ -taʊn/'), ['ˈwɪɡtən', 'ˈwɪɡtaʊn']);
+  assert.deepEqual(nfc('/ˈtʃʌkrəˌˈtʃæk-ˌˈtʃɑːk-/'), ['ˈtʃʌkrə', 'ˈtʃækrə', 'ˈtʃɑːkrə']);
 });

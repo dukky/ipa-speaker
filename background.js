@@ -18,14 +18,14 @@ async function ensureOffscreen() {
   }
 }
 
-async function speak(ipa, rate = 1) {
+async function speak(ipa, rate = 1, context = '') {
   await ensureOffscreen();
-  return chrome.runtime.sendMessage({ target: 'offscreen', type: 'speak', ipa, rate });
+  return chrome.runtime.sendMessage({ target: 'offscreen', type: 'speak', ipa, rate, context });
 }
 
 chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
   if (msg.target !== 'background' || msg.type !== 'speak') return;
-  speak(msg.ipa, msg.rate).then(sendResponse, (err) => sendResponse({ ok: false, error: String(err) }));
+  speak(msg.ipa, msg.rate, msg.context).then(sendResponse, (err) => sendResponse({ ok: false, error: String(err) }));
   return true; // async response
 });
 

@@ -8,10 +8,27 @@
 const SLOW_RATE = 0.6;
 const BUTTON_CLASS = 'ipa-speaker-button';
 
+// Top-level IPA spans, skipping IPA nested inside other IPA.
+const transcriptions = (root) =>
+  [...root.querySelectorAll('.IPA')].filter((span) => !span.parentElement?.closest('.IPA'));
+
+// Partial forms are often a separate transcription ("/ˈbɔːstən/, /ˈbɒ-/"), so
+// pass the others along for the engine to expand against: those in the same
+// paragraph first, then the rest of the page, nearest earlier one first.
+function contextFor(span) {
+  const block = span.closest('p, li, dd, td, th, .reference-text');
+  const isBefore = (s) => s.compareDocumentPosition(span) & Node.DOCUMENT_POSITION_FOLLOWING;
+  const byDistance = (spans) => [...spans.filter(isBefore).reverse(), ...spans.filter((s) => !isBefore(s))];
+  const others = transcriptions(document).filter((s) => s !== span && s.lang === span.lang);
+  const inBlock = others.filter((s) => block?.contains(s));
+  return [...byDistance(inBlock), ...byDistance(others.filter((s) => !inBlock.includes(s)))]
+    .map((s) => s.textContent)
+    .join(', ');
+}
+
 function addButtons(root) {
-  for (const span of root.querySelectorAll('.IPA')) {
-    // Skip IPA nested inside other IPA, and anything already handled.
-    if (span.parentElement?.closest('.IPA')) continue;
+  for (const span of transcriptions(root)) {
+    // Skip anything already handled.
     if (span.nextElementSibling?.classList.contains(BUTTON_CLASS)) continue;
     if (!span.textContent.trim()) continue;
 
@@ -38,6 +55,7 @@ document.addEventListener('click', async (event) => {
       target: 'background',
       type: 'speak',
       ipa: span.textContent,
+      context: contextFor(span),
       rate: event.shiftKey ? SLOW_RATE : 1,
     });
     if (!res?.ok) console.warn('IPA Speaker:', res?.error);

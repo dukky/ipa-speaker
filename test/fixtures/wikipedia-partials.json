@@ -1,0 +1,3374 @@
+[
+ {
+  "title": "325 Heidelberga",
+  "ipa": "/ˌhaɪdəlˈbɜːrdʒiən, -ɡiən/",
+  "context": "/ˌhaɪdəlˈbɜːrɡə/",
+  "expected": [
+   "ˌhaɪdəlˈbɜːrdʒiən",
+   "ˌhaɪdəlˈbɜːrɡiən"
+  ]
+ },
+ {
+  "title": "Aalborg",
+  "ipa": "/ˈɔːl-/",
+  "context": "/ˈɑːlbɔːrɡ/",
+  "expected": [
+   "ˈɔːlbɔːrɡ"
+  ]
+ },
+ {
+  "title": "Aarhus",
+  "ipa": "/ˈɑːr-/",
+  "context": "/ˈɔːrhuːs/",
+  "expected": [
+   "ˈɑːrhuːs"
+  ]
+ },
+ {
+  "title": "Abruzzo",
+  "ipa": "/ɑːˈbruːtsoʊ, əˈ-/",
+  "context": "/æˈbrʊtsoʊ/",
+  "expected": [
+   "ɑːˈbruːtsoʊ",
+   "əˈbruːtsoʊ"
+  ]
+ },
+ {
+  "title": "Acapulco",
+  "ipa": "/ˌɑːk-/",
+  "context": "/ˌækəˈpʊlkoʊ/",
+  "expected": [
+   "ˌɑːkəˈpʊlkoʊ"
+  ]
+ },
+ {
+  "title": "Acromegaly",
+  "ipa": "/ˌækrəˈmɛɡəli, -roʊ-/",
+  "context": "",
+  "expected": [
+   "ˌækrəˈmɛɡəli",
+   "ˌækroʊˈmɛɡəli"
+  ]
+ },
+ {
+  "title": "Agoraphobia",
+  "ipa": "/ˌæɡərəˈfoʊbiəˌ əˌɡɔːrə-/",
+  "context": "",
+  "expected": [
+   "ˌæɡərəˈfoʊbiə",
+   "əˌɡɔːrəˈfoʊbiə"
+  ]
+ },
+ {
+  "title": "Alberto Giacometti",
+  "ipa": "/ˌdʒɑːk-/",
+  "context": "/ˌdʒækəˈmɛti/",
+  "expected": [
+   "ˌdʒɑːkəˈmɛti"
+  ]
+ },
+ {
+  "title": "Alberto Moravia",
+  "ipa": "/moʊˈrɑːviə, -ˈreɪv-/",
+  "context": "",
+  "expected": [
+   "moʊˈrɑːviə",
+   "moʊˈreɪviə"
+  ]
+ },
+ {
+  "title": "Algarve",
+  "ipa": "/ælˈɡɑːrv, ˈælɡ-/",
+  "context": "/ɑːlˈɡɑːrvə, ælˈ-/",
+  "expected": [
+   "ælˈɡɑːrv",
+   "ˈælɡɑːrv"
+  ]
+ },
+ {
+  "title": "Algarve",
+  "ipa": "/ɑːlˈɡɑːrvə, ælˈ-/",
+  "context": "/ælˈɡɑːrv, ˈælɡ-/",
+  "expected": [
+   "ɑːlˈɡɑːrvə",
+   "ælˈɡɑːrvə"
+  ]
+ },
+ {
+  "title": "Alibaba Group",
+  "ipa": "/ˌæliˈbɑːbə, ˌɑː-/",
+  "context": "",
+  "expected": [
+   "ˌæliˈbɑːbə",
+   "ˌɑːliˈbɑːbə"
+  ]
+ },
+ {
+  "title": "Aliyah",
+  "ipa": "/ˌɑː-/",
+  "context": "/ˌæliˈɑː/",
+  "expected": [
+   "ˌɑːliˈɑː"
+  ]
+ },
+ {
+  "title": "Almería",
+  "ipa": "/ˌɑːl-/",
+  "context": "/ˌælməˈriːə/",
+  "expected": [
+   "ˌɑːlməˈriːə"
+  ]
+ },
+ {
+  "title": "Aloe vera",
+  "ipa": "/ˈæloʊ(i) ˈvɛrə, - ˈvɪər-/",
+  "context": "",
+  "expected": [
+   "ˈæloʊ(i) ˈvɛrə",
+   "ˈæloʊ(i) ˈvɪərə"
+  ]
+ },
+ {
+  "title": "Alzheimer's disease",
+  "ipa": "/ˈɑːlts-/",
+  "context": "/ˈæltshaɪmərz/",
+  "expected": [
+   "ˈɑːltshaɪmərz"
+  ]
+ },
+ {
+  "title": "Ancona",
+  "ipa": "/ænˈ-, ɑːnˈ-/",
+  "context": "/æŋˈkoʊnə/",
+  "expected": [
+   "ænˈkoʊnə",
+   "ɑːnˈkoʊnə"
+  ]
+ },
+ {
+  "title": "Angstrom",
+  "ipa": "/ˈæŋ.strəm, ˈɒŋ-/",
+  "context": "",
+  "expected": [
+   "ˈæŋ.strəm",
+   "ˈɒŋ.strəm"
+  ]
+ },
+ {
+  "title": "Annapurna",
+  "ipa": "/ˌænəˈpʊərnəˌ -ˈpɜːr-/",
+  "context": "",
+  "expected": [
+   "ˌænəˈpʊərnə",
+   "ˌænəˈpɜːrnə"
+  ]
+ },
+ {
+  "title": "Antikythera mechanism",
+  "ipa": "/ˌæntaɪkɪˈ-/",
+  "context": "/ˌæntɪkɪˈθɪərə/",
+  "expected": [
+   "ˌæntaɪkɪˈθɪərə"
+  ]
+ },
+ {
+  "title": "Anxiolytic",
+  "ipa": "/ˌæŋksiəˈlɪtɪk, ˌæŋksioʊ-/",
+  "context": "",
+  "expected": [
+   "ˌæŋksiəˈlɪtɪk",
+   "ˌæŋksioʊˈlɪtɪk"
+  ]
+ },
+ {
+  "title": "Apocrine sweat gland",
+  "ipa": "/ˈæpəkrən, -ˌkraɪn, -ˌkriːn/",
+  "context": "",
+  "expected": [
+   "ˈæpəkrən",
+   "ˈæpəˌkraɪn",
+   "ˈæpəˌkriːn"
+  ]
+ },
+ {
+  "title": "Aristotle Onassis",
+  "ipa": "/-ˈnɑː-/",
+  "context": "/oʊˈnæsɪs/",
+  "expected": [
+   "oʊˈnɑːsɪs"
+  ]
+ },
+ {
+  "title": "Artemisia Gentileschi",
+  "ipa": "/ˌdʒɛntɪˈlɛski, -tiːˈ-/",
+  "context": "",
+  "expected": [
+   "ˌdʒɛntɪˈlɛski",
+   "ˌdʒɛntiːˈlɛski"
+  ]
+ },
+ {
+  "title": "Aslan",
+  "ipa": "/ˈæslæn, ˈæz-/",
+  "context": "",
+  "expected": [
+   "ˈæslæn",
+   "ˈæzlæn"
+  ]
+ },
+ {
+  "title": "Asus",
+  "ipa": "/ɑːˈ-/",
+  "context": "/eɪˈsuːs/, /ˈeɪsuːs/, /əˈ-/",
+  "expected": [
+   "ɑːˈsuːs"
+  ]
+ },
+ {
+  "title": "Asus",
+  "ipa": "/əˈ-/",
+  "context": "/ɑːˈ-/, /eɪˈsuːs/, /ˈeɪsuːs/",
+  "expected": [
+   "əˈsuːs"
+  ]
+ },
+ {
+  "title": "Augsburg",
+  "ipa": "/ˈɔːɡz-/",
+  "context": "/ˈaʊɡzbɜːrɡ/",
+  "expected": [
+   "ˈɔːɡzbɜːrɡ"
+  ]
+ },
+ {
+  "title": "Australopithecus",
+  "ipa": "/ˌɒstrələˈpɪθɪkəs, -loʊ-/",
+  "context": "/ɒsˌtrələpɪˈθiːkəs/",
+  "expected": [
+   "ˌɒstrələˈpɪθɪkəs",
+   "ˌɒstrəloʊˈpɪθɪkəs"
+  ]
+ },
+ {
+  "title": "Ayurveda",
+  "ipa": "/ˌɑːjʊərˈveɪdə, -ˈviː-/",
+  "context": "",
+  "expected": [
+   "ˌɑːjʊərˈveɪdə",
+   "ˌɑːjʊərˈviːdə"
+  ]
+ },
+ {
+  "title": "Banco Santander",
+  "ipa": "/ˌsæntənˈdɛər, -tæn-/",
+  "context": "/ˌsɑːntɑːnˈdɛər/",
+  "expected": [
+   "ˌsæntənˈdɛər",
+   "ˌsæntænˈdɛər"
+  ]
+ },
+ {
+  "title": "Beelzebub",
+  "ipa": "/biːˈɛlzəbʌb, ˈbiːl-/",
+  "context": "",
+  "expected": [
+   "biːˈɛlzəbʌb",
+   "ˈbiːlzəbʌb"
+  ]
+ },
+ {
+  "title": "Bell tower",
+  "ipa": "/ˌkæmpəˈniːli, -leɪ/",
+  "context": "/ˌkɑːm-/",
+  "expected": [
+   "ˌkæmpəˈniːli",
+   "ˌkæmpəˈniːleɪ"
+  ]
+ },
+ {
+  "title": "Bell tower",
+  "ipa": "/ˌkɑːm-/",
+  "context": "/ˌkæmpəˈniːli, -leɪ/",
+  "expected": [
+   "ˌkɑːmpəˈniːli"
+  ]
+ },
+ {
+  "title": "Betty Friedan",
+  "ipa": "/ˈfriːdən, friːˈdæn, frɪ-/",
+  "context": "",
+  "expected": [
+   "ˈfriːdən",
+   "friːˈdæn",
+   "ˈfrɪdən"
+  ]
+ },
+ {
+  "title": "Boba Fett",
+  "ipa": "/ˌboʊbə ˈfɛt, ˌbɒ-/",
+  "context": "",
+  "expected": [
+   "ˌboʊbə ˈfɛt",
+   "ˌbɒbə ˈfɛt"
+  ]
+ },
+ {
+  "title": "Bogotá",
+  "ipa": "/ˌbɒɡ-/",
+  "context": "/ˌboʊɡəˈtɑː/, /ˈboʊɡətɑː/",
+  "expected": [
+   "ˌbɒɡəˈtɑː"
+  ]
+ },
+ {
+  "title": "Boston",
+  "ipa": "/ˈbɒ-/",
+  "context": "/ˈbɔːstən/",
+  "expected": [
+   "ˈbɒstən"
+  ]
+ },
+ {
+  "title": "Bouzouki",
+  "ipa": "/bəˈ-/",
+  "context": "/buːˈzuːki, bʊˈ-/",
+  "expected": [
+   "bəˈzuːki"
+  ]
+ },
+ {
+  "title": "Bouzouki",
+  "ipa": "/buːˈzuːki, bʊˈ-/",
+  "context": "/bəˈ-/",
+  "expected": [
+   "buːˈzuːki",
+   "bʊˈzuːki"
+  ]
+ },
+ {
+  "title": "Bra",
+  "ipa": "/ˈbræsɪər, ˈbræz-/",
+  "context": "/brəˈzɪər/",
+  "expected": [
+   "ˈbræsɪər",
+   "ˈbræzɪər"
+  ]
+ },
+ {
+  "title": "Brindisi",
+  "ipa": "/ˈbrɪndɪzi, ˈbriːn-/",
+  "context": "",
+  "expected": [
+   "ˈbrɪndɪzi",
+   "ˈbriːndɪzi"
+  ]
+ },
+ {
+  "title": "Budgerigar",
+  "ipa": "/ˈbʌdʒərɪɡɑːr, -əriː-/",
+  "context": "/ˈbʌdʒi/",
+  "expected": [
+   "ˈbʌdʒərɪɡɑːr",
+   "ˈbʌdʒəriːɡɑːr"
+  ]
+ },
+ {
+  "title": "Cádiz",
+  "ipa": "/ˈkeɪdɪz, ˈkæd-, ˈkɑːd-/",
+  "context": "/kəˈdɪz/",
+  "expected": [
+   "ˈkeɪdɪz",
+   "ˈkædɪz",
+   "ˈkɑːdɪz"
+  ]
+ },
+ {
+  "title": "Caldera",
+  "ipa": "/kɔːlˈdɛrə, kæl-/",
+  "context": "",
+  "expected": [
+   "kɔːlˈdɛrə",
+   "kælˈdɛrə"
+  ]
+ },
+ {
+  "title": "Caliphate",
+  "ipa": "/ˈkælɪf, ˈkeɪ-/",
+  "context": "",
+  "expected": [
+   "ˈkælɪf",
+   "ˈkeɪlɪf"
+  ]
+ },
+ {
+  "title": "Cambrian",
+  "ipa": "/ˈkæmbri.ən, ˈkeɪm-/",
+  "context": "",
+  "expected": [
+   "ˈkæmbri.ən",
+   "ˈkeɪmbri.ən"
+  ]
+ },
+ {
+  "title": "Cantabria",
+  "ipa": "/-ˈtæb-/",
+  "context": "/kænˈteɪbriə/",
+  "expected": [
+   "kænˈtæbriə"
+  ]
+ },
+ {
+  "title": "Capitoline Hill",
+  "ipa": "/ˈkæpɪtəlaɪn, kəˈpɪt-/",
+  "context": "",
+  "expected": [
+   "ˈkæpɪtəlaɪn",
+   "kəˈpɪtəlaɪn"
+  ]
+ },
+ {
+  "title": "Cappadocia",
+  "ipa": "/kæpəˈdoʊʃəˌ -ˈdoʊkiə/",
+  "context": "",
+  "expected": [
+   "kæpəˈdoʊʃə",
+   "kæpəˈdoʊkiə"
+  ]
+ },
+ {
+  "title": "Cassiopeia (constellation)",
+  "ipa": "/ˌkæsiəˈpiːaɪ, -sioʊ-, -iː/",
+  "context": "/ˌkæsiˈoʊpiə/, /ˌkæsiəˈpiːə, -sioʊ-/",
+  "expected": [
+   "ˌkæsiəˈpiːaɪ",
+   "ˌkæsioʊˈpiːaɪ",
+   "ˌkæsiəˈpiːiː"
+  ]
+ },
+ {
+  "title": "Cassiopeia (constellation)",
+  "ipa": "/ˌkæsiəˈpiːə, -sioʊ-/",
+  "context": "/ˌkæsiˈoʊpiə/, /ˌkæsiəˈpiːaɪ, -sioʊ-, -iː/",
+  "expected": [
+   "ˌkæsiəˈpiːə",
+   "ˌkæsioʊˈpiːə"
+  ]
+ },
+ {
+  "title": "Catania",
+  "ipa": "/-ˈtæn-/",
+  "context": "/-ˈteɪn-/, /kəˈtɑːniə/",
+  "expected": [
+   "kəˈtæniə"
+  ]
+ },
+ {
+  "title": "Catania",
+  "ipa": "/-ˈteɪn-/",
+  "context": "/kəˈtɑːniə/, /-ˈtæn-/",
+  "expected": [
+   "kəˈteɪniə"
+  ]
+ },
+ {
+  "title": "Cenozoic",
+  "ipa": "/ˌsiːnəˈzoʊ.ɪk, ˌsɛn-/",
+  "context": "",
+  "expected": [
+   "ˌsiːnəˈzoʊ.ɪk",
+   "ˌsɛnəˈzoʊ.ɪk"
+  ]
+ },
+ {
+  "title": "Centre-Val de Loire",
+  "ipa": "/ˌvæl də ˈlwɑːr, ˌvɑːl-/",
+  "context": "",
+  "expected": [
+   "ˌvæl də ˈlwɑːr",
+   "ˌvɑːl də ˈlwɑːr"
+  ]
+ },
+ {
+  "title": "Chakra",
+  "ipa": "/ˈtʃʌkrəˌˈtʃæk-ˌˈtʃɑːk-/",
+  "context": "",
+  "expected": [
+   "ˈtʃʌkrə",
+   "ˈtʃækrə",
+   "ˈtʃɑːkrə"
+  ]
+ },
+ {
+  "title": "Chamorro people",
+  "ipa": "/tʃɑːˈmɔːroʊ, tʃə-/",
+  "context": "",
+  "expected": [
+   "tʃɑːˈmɔːroʊ",
+   "tʃəˈmɔːroʊ"
+  ]
+ },
+ {
+  "title": "Champs-Élysées",
+  "ipa": "/ˌʃɒ̃z eɪˈliːzeɪ, ɛ-/",
+  "context": "/ʃɒ̃z ˌeɪliˈzeɪ/",
+  "expected": [
+   "ˌʃɒ̃z eɪˈliːzeɪ",
+   "ˌʃɒ̃z ɛˈliːzeɪ"
+  ]
+ },
+ {
+  "title": "Chaparral",
+  "ipa": "/ˌʃæpəˈræl, ˌtʃæp-/",
+  "context": "",
+  "expected": [
+   "ˌʃæpəˈræl",
+   "ˌtʃæpəˈræl"
+  ]
+ },
+ {
+  "title": "Checkers",
+  "ipa": "/drɑːfts, -æ-/",
+  "context": "",
+  "expected": [
+   "drɑːfts",
+   "dræfts"
+  ]
+ },
+ {
+  "title": "Chimera (mythology)",
+  "ipa": "/kaɪˈmɪərə, kɪ-, -mɛər-/",
+  "context": "",
+  "expected": [
+   "kaɪˈmɪərə",
+   "kɪˈmɪərə",
+   "kaɪˈmɛərə"
+  ]
+ },
+ {
+  "title": "Chios",
+  "ipa": "/ˈkaɪ.ɒs, ˈkaɪ.oʊs, ˈkiː-/",
+  "context": "",
+  "expected": [
+   "ˈkaɪ.ɒs",
+   "ˈkaɪ.oʊs",
+   "ˈkiː.ɒs"
+  ]
+ },
+ {
+  "title": "Cicada",
+  "ipa": "/sɪˈkɑːdəz, -ˈkeɪ-/",
+  "context": "",
+  "expected": [
+   "sɪˈkɑːdəz",
+   "sɪˈkeɪdəz"
+  ]
+ },
+ {
+  "title": "Citalopram",
+  "ipa": "/saɪˈtæləˌpræm, sɪ-/",
+  "context": "",
+  "expected": [
+   "saɪˈtæləˌpræm",
+   "sɪˈtæləˌpræm"
+  ]
+ },
+ {
+  "title": "Claude Monet",
+  "ipa": "/moʊˈneɪ, məˈ-/",
+  "context": "/ˈmɒneɪ/",
+  "expected": [
+   "moʊˈneɪ",
+   "məˈneɪ"
+  ]
+ },
+ {
+  "title": "Cnidaria",
+  "ipa": "/nɪˈdɛəriə, naɪ-/",
+  "context": "",
+  "expected": [
+   "nɪˈdɛəriə",
+   "naɪˈdɛəriə"
+  ]
+ },
+ {
+  "title": "Colchester",
+  "ipa": "/ˈkɒltʃɛstər, ˈkoʊl-, -tʃɪst-/",
+  "context": "",
+  "expected": [
+   "ˈkɒltʃɛstər",
+   "ˈkoʊltʃɛstər",
+   "ˈkɒltʃɪstər"
+  ]
+ },
+ {
+  "title": "Conquistador",
+  "ipa": "/-k(w)ɪ-/",
+  "context": "/kɒŋˈ-/, /kɒnˈkiːstədɔːrz/",
+  "expected": [
+   "kɒnˈk(w)ɪstədɔːrz"
+  ]
+ },
+ {
+  "title": "Conquistador",
+  "ipa": "/kɒŋˈ-/",
+  "context": "/kɒnˈkiːstədɔːrz/, /-k(w)ɪ-/",
+  "expected": [
+   "kɒŋˈkiːstədɔːrz"
+  ]
+ },
+ {
+  "title": "Coriander",
+  "ipa": "/sɪˈlæntroʊ, -ˈlɑːn-/",
+  "context": "/ˌkɒriˈændər, ˈkɒriændər/",
+  "expected": [
+   "sɪˈlæntroʊ",
+   "sɪˈlɑːntroʊ"
+  ]
+ },
+ {
+  "title": "Count Dracula",
+  "ipa": "/ˈdræk.jʊl.ə, -.jə-/",
+  "context": "",
+  "expected": [
+   "ˈdræk.jʊl.ə",
+   "ˈdræk.jəl.ə"
+  ]
+ },
+ {
+  "title": "COVID-19",
+  "ipa": "/ˌkoʊvɪdnaɪnˈtiːn, ˌkɒvɪd-/",
+  "context": "/kəˈroʊnəvaɪrəs/",
+  "expected": [
+   "ˌkoʊvɪdnaɪnˈtiːn",
+   "ˌkɒvɪdnaɪnˈtiːn"
+  ]
+ },
+ {
+  "title": "Cremona",
+  "ipa": "/krɛˈ-/",
+  "context": "/krɪˈmoʊnə/",
+  "expected": [
+   "krɛˈmoʊnə"
+  ]
+ },
+ {
+  "title": "Ctenophora",
+  "ipa": "/ˈtɛnəfɔːr, ˈtiːnə-/",
+  "context": "/təˈnɒfərə/",
+  "expected": [
+   "ˈtɛnəfɔːr",
+   "ˈtiːnəfɔːr"
+  ]
+ },
+ {
+  "title": "Cyrano de Bergerac (play)",
+  "ipa": "/ˌsɪrənoʊ də ˈbɜːrʒəræk, - ˈbɛər-/",
+  "context": "",
+  "expected": [
+   "ˌsɪrənoʊ də ˈbɜːrʒəræk",
+   "ˌsɪrənoʊ də ˈbɛərʒəræk"
+  ]
+ },
+ {
+  "title": "Cyrenaica",
+  "ipa": "/ˌsaɪrəˈneɪ.ɪkəˌˌsɪr-/",
+  "context": "",
+  "expected": [
+   "ˌsaɪrəˈneɪ.ɪkə",
+   "ˌsɪrəˈneɪ.ɪkə"
+  ]
+ },
+ {
+  "title": "Czech language",
+  "ipa": "/boʊˈhiːmiən, bə-/",
+  "context": "/tʃɛk/",
+  "expected": [
+   "boʊˈhiːmiən",
+   "bəˈhiːmiən"
+  ]
+ },
+ {
+  "title": "Dakar",
+  "ipa": "/dɑːˈkɑːr, dæ-/",
+  "context": "/ˈdækɑːr/, /dəˈkɑːr, dɑːˈkɑːr, ˈdækər/",
+  "expected": [
+   "dɑːˈkɑːr",
+   "dæˈkɑːr"
+  ]
+ },
+ {
+  "title": "Darién Gap",
+  "ipa": "/ˈdɛər.i.ən, ˈdær.-/",
+  "context": "/ˌdɛər.i.ˈɛn, ˌdɑːr.-, dɑːr.ˈjɛn/",
+  "expected": [
+   "ˈdɛər.i.ən",
+   "ˈdær.i.ən"
+  ]
+ },
+ {
+  "title": "Darién Gap",
+  "ipa": "/ˌdɛər.i.ˈɛn, ˌdɑːr.-, dɑːr.ˈjɛn/",
+  "context": "/ˈdɛər.i.ən, ˈdær.-/",
+  "expected": [
+   "ˌdɛər.i.ˈɛn",
+   "ˌdɑːr.i.ˈɛn",
+   "dɑːr.ˈjɛn"
+  ]
+ },
+ {
+  "title": "Deus ex machina",
+  "ipa": "/ˈdeɪəs ɛks ˈmækɪnə, ˈmɑːk-/",
+  "context": "",
+  "expected": [
+   "ˈdeɪəs ɛks ˈmækɪnə",
+   "ˈdeɪəs ɛks ˈmɑːkɪnə"
+  ]
+ },
+ {
+  "title": "Devonian",
+  "ipa": "/dəˈvoʊni.ən, dɛ-/",
+  "context": "",
+  "expected": [
+   "dəˈvoʊni.ən",
+   "dɛˈvoʊni.ən"
+  ]
+ },
+ {
+  "title": "Diabetes",
+  "ipa": "/ˌdaɪəˈbiːtiːz, -tɪs/",
+  "context": "",
+  "expected": [
+   "ˌdaɪəˈbiːtiːz",
+   "ˌdaɪəˈbiːtɪs"
+  ]
+ },
+ {
+  "title": "Dilophosaurus",
+  "ipa": "/daɪˌloʊfəˈsɔːrəs, -foʊ-/",
+  "context": "",
+  "expected": [
+   "daɪˌloʊfəˈsɔːrəs",
+   "daɪˌloʊfoʊˈsɔːrəs"
+  ]
+ },
+ {
+  "title": "Diphthong",
+  "ipa": "/ˈdɪfθɒŋ, ˈdɪp-/",
+  "context": "/noʊ ˈhaɪweɪ ˈkaʊbɔɪz/, /oʊ, aɪ, eɪ, aʊ, ɔɪ/, /ɑː/, /aʊ/, /ˌri.əˈlɛkt/",
+  "expected": [
+   "ˈdɪfθɒŋ",
+   "ˈdɪpθɒŋ"
+  ]
+ },
+ {
+  "title": "DNA",
+  "ipa": "/diːˈɒksɪˌraɪboʊnjuːˌkliːɪk, -ˌkleɪ-/",
+  "context": "",
+  "expected": [
+   "diːˈɒksɪˌraɪboʊnjuːˌkliːɪk",
+   "diːˈɒksɪˌraɪboʊnjuːˌkleɪɪk"
+  ]
+ },
+ {
+  "title": "Doncaster",
+  "ipa": "/ˈdɒŋkəstər, -kæs-/",
+  "context": "",
+  "expected": [
+   "ˈdɒŋkəstər",
+   "ˈdɒŋkæstər"
+  ]
+ },
+ {
+  "title": "Donetsk",
+  "ipa": "/dən-/",
+  "context": "/dɒnˈjɛtsk/",
+  "expected": [
+   "dənˈjɛtsk"
+  ]
+ },
+ {
+  "title": "Doppelgänger",
+  "ipa": "/ˈdɒpəlɡæŋər, -ɡæŋ-/",
+  "context": "",
+  "expected": [
+   "ˈdɒpəlɡæŋər",
+   "ˈdɒpəlɡæŋər"
+  ]
+ },
+ {
+  "title": "Drosophila",
+  "ipa": "/drəˈsɒfɪlə, drɒ-, droʊ-/",
+  "context": "",
+  "expected": [
+   "drəˈsɒfɪlə",
+   "drɒˈsɒfɪlə",
+   "droʊˈsɒfɪlə"
+  ]
+ },
+ {
+  "title": "Eccrine sweat gland",
+  "ipa": "/ˈɛkrən, -ˌkraɪn, -ˌkriːn/",
+  "context": "",
+  "expected": [
+   "ˈɛkrən",
+   "ˈɛˌkraɪn",
+   "ˈɛˌkriːn"
+  ]
+ },
+ {
+  "title": "Echinoderm",
+  "ipa": "/ɪˈkaɪnəˌdɜːrm, ˈɛkə-/",
+  "context": "/ɪˌkaɪnoʊˈdɜːrmətə/",
+  "expected": [
+   "ɪˈkaɪnəˌdɜːrm",
+   "ˈɛkənəˌdɜːrm"
+  ]
+ },
+ {
+  "title": "Economics",
+  "ipa": "/ˌɛkəˈnɒmɪks, ˌiːkə-/",
+  "context": "",
+  "expected": [
+   "ˌɛkəˈnɒmɪks",
+   "ˌiːkəˈnɒmɪks"
+  ]
+ },
+ {
+  "title": "Ediacaran",
+  "ipa": "/ˌiːdiˈækərən, ˌɛdi-/",
+  "context": "",
+  "expected": [
+   "ˌiːdiˈækərən",
+   "ˌɛdiˈækərən"
+  ]
+ },
+ {
+  "title": "Edirne",
+  "ipa": "/eɪˈdɪərnə, ɛˈ-/",
+  "context": "",
+  "expected": [
+   "eɪˈdɪərnə",
+   "ɛˈdɪərnə"
+  ]
+ },
+ {
+  "title": "Édouard Manet",
+  "ipa": "/mæˈneɪ, məˈ-/",
+  "context": "/ˈmæneɪ/",
+  "expected": [
+   "mæˈneɪ",
+   "məˈneɪ"
+  ]
+ },
+ {
+  "title": "Eigenvalues and eigenvectors",
+  "ipa": "/ˈaɪɡən-/",
+  "context": "",
+  "expected": [
+   "ˈaɪɡən"
+  ]
+ },
+ {
+  "title": "Emilia-Romagna",
+  "ipa": "/eɪˌ-/",
+  "context": "/ɪˌmiːliə roʊˈmɑːnjə/, /ɛˌ-/",
+  "expected": [
+   "eɪˌmiːliə roʊˈmɑːnjə"
+  ]
+ },
+ {
+  "title": "Emilia-Romagna",
+  "ipa": "/ɛˌ-/",
+  "context": "/eɪˌ-/, /ɪˌmiːliə roʊˈmɑːnjə/",
+  "expected": [
+   "ɛˌmiːliə roʊˈmɑːnjə"
+  ]
+ },
+ {
+  "title": "Eocene",
+  "ipa": "/ˈiːəsiːn, ˈiːoʊ-/",
+  "context": "",
+  "expected": [
+   "ˈiːəsiːn",
+   "ˈiːoʊsiːn"
+  ]
+ },
+ {
+  "title": "Épée",
+  "ipa": "/ˈɛpeɪ, ˈeɪ-/",
+  "context": "",
+  "expected": [
+   "ˈɛpeɪ",
+   "ˈeɪpeɪ"
+  ]
+ },
+ {
+  "title": "Ernst Cassirer",
+  "ipa": "/kɑːˈsɪərər, kəˈ-/",
+  "context": "",
+  "expected": [
+   "kɑːˈsɪərər",
+   "kəˈsɪərər"
+  ]
+ },
+ {
+  "title": "Euromaidan",
+  "ipa": "/ˌjʊərəmaɪˈdɑːn, ˌjʊəroʊ-/",
+  "context": "",
+  "expected": [
+   "ˌjʊərəmaɪˈdɑːn",
+   "ˌjʊəroʊmaɪˈdɑːn"
+  ]
+ },
+ {
+  "title": "Europa (consort of Zeus)",
+  "ipa": "/jʊəˈroʊpə, jə-/",
+  "context": "",
+  "expected": [
+   "jʊəˈroʊpə",
+   "jəˈroʊpə"
+  ]
+ },
+ {
+  "title": "Evangelicalism",
+  "ipa": "/ˌiːvænˈdʒɛlɪkəlɪzəm, ˌɛvæn-, -ən-/",
+  "context": "",
+  "expected": [
+   "ˌiːvænˈdʒɛlɪkəlɪzəm",
+   "ˌɛvænˈdʒɛlɪkəlɪzəm",
+   "ˌiːvənˈdʒɛlɪkəlɪzəm"
+  ]
+ },
+ {
+  "title": "Fahrenheit",
+  "ipa": "/ˈfærənhaɪt, ˈfɑːr-/",
+  "context": "",
+  "expected": [
+   "ˈfærənhaɪt",
+   "ˈfɑːrənhaɪt"
+  ]
+ },
+ {
+  "title": "Falcon",
+  "ipa": "/ˈfɒlkən, ˈfɔːl-, ˈfæl-/",
+  "context": "",
+  "expected": [
+   "ˈfɒlkən",
+   "ˈfɔːlkən",
+   "ˈfælkən"
+  ]
+ },
+ {
+  "title": "Falkland Islands",
+  "ipa": "/ˈfɔː(l)klənd, ˈfɒlk-/",
+  "context": "",
+  "expected": [
+   "ˈfɔː(l)klənd",
+   "ˈfɒlklənd"
+  ]
+ },
+ {
+  "title": "Falsetto",
+  "ipa": "/fɔːlˈsɛtoʊ, fɒl-/",
+  "context": "",
+  "expected": [
+   "fɔːlˈsɛtoʊ",
+   "fɒlˈsɛtoʊ"
+  ]
+ },
+ {
+  "title": "Fennel",
+  "ipa": "/-ˈnoʊk-/",
+  "context": "/fɪˈnɒkioʊ/",
+  "expected": [
+   "fɪˈnoʊkioʊ"
+  ]
+ },
+ {
+  "title": "Fine Gael",
+  "ipa": "/ˌfiːnə ˈɡeɪl, ˌfɪn-/",
+  "context": "",
+  "expected": [
+   "ˌfiːnə ˈɡeɪl",
+   "ˌfɪnə ˈɡeɪl"
+  ]
+ },
+ {
+  "title": "Fluoride",
+  "ipa": "/ˈflʊəraɪd, ˈflɔːr-/",
+  "context": "/ˈfluːəraɪd/",
+  "expected": [
+   "ˈflʊəraɪd",
+   "ˈflɔːraɪd"
+  ]
+ },
+ {
+  "title": "Formaldehyde",
+  "ipa": "/fər-/",
+  "context": "/fɔːrˈmældɪhaɪd/",
+  "expected": [
+   "fərˈmældɪhaɪd"
+  ]
+ },
+ {
+  "title": "Franche-Comté",
+  "ipa": "/- koʊnˈ-/",
+  "context": "/ˌfrɒ̃ʃ kɒ̃ˈteɪ/",
+  "expected": [
+   "ˌfrɒ̃ʃ koʊnˈteɪ"
+  ]
+ },
+ {
+  "title": "François Truffaut",
+  "ipa": "/ˈtruːfoʊ, ˈtrʊ-/",
+  "context": "/truːˈfoʊ/",
+  "expected": [
+   "ˈtruːfoʊ",
+   "ˈtrʊfoʊ"
+  ]
+ },
+ {
+  "title": "Funicular",
+  "ipa": "/fjuːˈnɪkjʊlər, f(j)ʊ-, f(j)ə-/",
+  "context": "",
+  "expected": [
+   "fjuːˈnɪkjʊlər",
+   "f(j)ʊˈnɪkjʊlər",
+   "f(j)əˈnɪkjʊlər"
+  ]
+ },
+ {
+  "title": "Gaborone",
+  "ipa": "/ˌɡæbəˈroʊni, ˌhæb-/",
+  "context": "/ˌɡɑːbəˈroʊni, -neɪ/",
+  "expected": [
+   "ˌɡæbəˈroʊni",
+   "ˌhæbəˈroʊni"
+  ]
+ },
+ {
+  "title": "Gaborone",
+  "ipa": "/ˌɡɑːbəˈroʊni, -neɪ/",
+  "context": "/ˌɡæbəˈroʊni, ˌhæb-/",
+  "expected": [
+   "ˌɡɑːbəˈroʊni",
+   "ˌɡɑːbəˈroʊneɪ"
+  ]
+ },
+ {
+  "title": "Gendarmerie",
+  "ipa": "/ʒɒnˈdɑːrməri, ʒɒ̃-/",
+  "context": "/ˈʒɒndɑːrm/",
+  "expected": [
+   "ʒɒnˈdɑːrməri",
+   "ʒɒ̃ˈdɑːrməri"
+  ]
+ },
+ {
+  "title": "Gerrymandering",
+  "ipa": "/ˈdʒɛri-/",
+  "context": "/ˈɡɛri-/",
+  "expected": [
+   "ˈdʒɛri"
+  ]
+ },
+ {
+  "title": "Gerrymandering",
+  "ipa": "/ˈɡɛri-/",
+  "context": "/ˈdʒɛri-/",
+  "expected": [
+   "ˈɡɛri"
+  ]
+ },
+ {
+  "title": "Giacomo Casanova",
+  "ipa": "[ˈdʒaːkomo dʒiˈrɔːlamo kazaˈnɔːva, kasa-]",
+  "context": "",
+  "expected": [
+   "ˈdʒaːkomo dʒiˈrɔːlamo kazaˈnɔːva",
+   "ˈdʒaːkomo dʒiˈrɔːlamo kasaˈnɔːva"
+  ]
+ },
+ {
+  "title": "Giacomo Casanova",
+  "ipa": "/ˌkæsəˈnoʊvə, ˌkæzə-/",
+  "context": "",
+  "expected": [
+   "ˌkæsəˈnoʊvə",
+   "ˌkæzəˈnoʊvə"
+  ]
+ },
+ {
+  "title": "Gian Lorenzo Bernini",
+  "ipa": "/bərˈ-/",
+  "context": "/bɛərˈniːni/",
+  "expected": [
+   "bərˈniːni"
+  ]
+ },
+ {
+  "title": "Gibraltar",
+  "ipa": "/dʒɪˈbrɔːltər, -ˈbrɒl-/",
+  "context": "",
+  "expected": [
+   "dʒɪˈbrɔːltər",
+   "dʒɪˈbrɒltər"
+  ]
+ },
+ {
+  "title": "Gilgit-Baltistan",
+  "ipa": "/ˌɡɪlɡɪt ˌbɔːltɪˈstɑːn, -stæn/",
+  "context": "",
+  "expected": [
+   "ˌɡɪlɡɪt ˌbɔːltɪˈstɑːn",
+   "ˌɡɪlɡɪt ˌbɔːltɪˈstæn"
+  ]
+ },
+ {
+  "title": "Girolamo Savonarola",
+  "ipa": "/ˌsævən-, səˌvɒn-/",
+  "context": "/ˌsævɒnəˈroʊlə/",
+  "expected": [
+   "ˌsævənəˈroʊlə",
+   "səˌvɒnəˈroʊlə"
+  ]
+ },
+ {
+  "title": "Gironde",
+  "ipa": "/dʒɪˈ-/",
+  "context": "/ʒɪˈrɒnd/",
+  "expected": [
+   "dʒɪˈrɒnd"
+  ]
+ },
+ {
+  "title": "Glastonbury",
+  "ipa": "/ˈɡlɑːst-/",
+  "context": "/ˈɡlæstənbəri/",
+  "expected": [
+   "ˈɡlɑːstənbəri"
+  ]
+ },
+ {
+  "title": "Glyphosate",
+  "ipa": "/ˈɡlɪfəseɪt, ˈɡlaɪfə-/",
+  "context": "/ɡlaɪˈfɒseɪt/",
+  "expected": [
+   "ˈɡlɪfəseɪt",
+   "ˈɡlaɪfəseɪt"
+  ]
+ },
+ {
+  "title": "Göttingen",
+  "ipa": "/ˈɡɛt-/",
+  "context": "/ˈɡɜːtɪŋən/",
+  "expected": [
+   "ˈɡɛtɪŋən"
+  ]
+ },
+ {
+  "title": "Gran Canaria",
+  "ipa": "/ˌɡræn kəˈnɛəriə, -ˈnɑːr-/",
+  "context": "/ˌɡrɑːn kəˈnɑːriə, -ˈnɛər-/",
+  "expected": [
+   "ˌɡræn kəˈnɛəriə",
+   "ˌɡræn kəˈnɑːriə"
+  ]
+ },
+ {
+  "title": "Gran Canaria",
+  "ipa": "/ˌɡrɑːn kəˈnɑːriə, -ˈnɛər-/",
+  "context": "/ˌɡræn kəˈnɛəriə, -ˈnɑːr-/",
+  "expected": [
+   "ˌɡrɑːn kəˈnɑːriə",
+   "ˌɡrɑːn kəˈnɛəriə"
+  ]
+ },
+ {
+  "title": "Greco-Roman world",
+  "ipa": "/ˌɡrɛkoʊˈroʊmən, ˌɡriːkoʊ-, ˌɡreɪkoʊ-/",
+  "context": "",
+  "expected": [
+   "ˌɡrɛkoʊˈroʊmən",
+   "ˌɡriːkoʊˈroʊmən",
+   "ˌɡreɪkoʊˈroʊmən"
+  ]
+ },
+ {
+  "title": "Greenwich",
+  "ipa": "/-ɪdʒ/",
+  "context": "/ˈɡrɛnɪtʃ/, /ˈɡrɪn-/",
+  "expected": [
+   "ˈɡrɛnɪdʒ"
+  ]
+ },
+ {
+  "title": "Greenwich",
+  "ipa": "/ˈɡrɪn-/",
+  "context": "/-ɪdʒ/, /ˈɡrɛnɪtʃ/",
+  "expected": [
+   "ˈɡrɪnɪtʃ"
+  ]
+ },
+ {
+  "title": "Guillain–Barré syndrome",
+  "ipa": "/ˌɡiː(j)æn ˈbæreɪ, ˌɡiːlæn -/",
+  "context": "/ɡiːˌjæn bəˈreɪ, ɡiːˌ(j)æn -/",
+  "expected": [
+   "ˌɡiː(j)æn ˈbæreɪ",
+   "ˌɡiːlæn ˈbæreɪ"
+  ]
+ },
+ {
+  "title": "Guillain–Barré syndrome",
+  "ipa": "/ɡiːˌjæn bəˈreɪ, ɡiːˌ(j)æn -/",
+  "context": "/ˌɡiː(j)æn ˈbæreɪ, ˌɡiːlæn -/",
+  "expected": [
+   "ɡiːˌjæn bəˈreɪ",
+   "ɡiːˌ(j)æn bəˈreɪ"
+  ]
+ },
+ {
+  "title": "Gurkha",
+  "ipa": "/ˈɡɜːrkə, ˈɡʊər-/",
+  "context": "",
+  "expected": [
+   "ˈɡɜːrkə",
+   "ˈɡʊərkə"
+  ]
+ },
+ {
+  "title": "Gynecomastia",
+  "ipa": "/ˌɡaɪnɪkoʊˈmæstiə, ˌdʒaɪ-, -kə-/",
+  "context": "/ɡaɪˈniːkəmæstiə, -koʊ-/",
+  "expected": [
+   "ˌɡaɪnɪkoʊˈmæstiə",
+   "ˌdʒaɪnɪkoʊˈmæstiə",
+   "ˌɡaɪnɪkəˈmæstiə"
+  ]
+ },
+ {
+  "title": "Gynecomastia",
+  "ipa": "/ɡaɪˈniːkəmæstiə, -koʊ-/",
+  "context": "/ˌɡaɪnɪkoʊˈmæstiə, ˌdʒaɪ-, -kə-/",
+  "expected": [
+   "ɡaɪˈniːkəmæstiə",
+   "ɡaɪˈniːkoʊmæstiə"
+  ]
+ },
+ {
+  "title": "Gyros",
+  "ipa": "/ˈjɪəroʊ, ˈdʒɪər-, ˈdʒaɪr-/",
+  "context": "",
+  "expected": [
+   "ˈjɪəroʊ",
+   "ˈdʒɪəroʊ",
+   "ˈdʒaɪroʊ"
+  ]
+ },
+ {
+  "title": "Hans Holbein the Younger",
+  "ipa": "/ˈhoʊlbaɪn, ˈhɔːl-/",
+  "context": "/ˈhɒlbaɪn/",
+  "expected": [
+   "ˈhoʊlbaɪn",
+   "ˈhɔːlbaɪn"
+  ]
+ },
+ {
+  "title": "Haumea",
+  "ipa": "/haʊˈmeɪ.ə, ˌhɑːuː-/",
+  "context": "",
+  "expected": [
+   "haʊˈmeɪ.ə",
+   "ˌhɑːuːˈmeɪ.ə"
+  ]
+ },
+ {
+  "title": "Hematite",
+  "ipa": "/ˈhiːmətaɪt, ˈhɛm-/",
+  "context": "",
+  "expected": [
+   "ˈhiːmətaɪt",
+   "ˈhɛmətaɪt"
+  ]
+ },
+ {
+  "title": "Henley-on-Thames",
+  "ipa": "/ˌhɛnli-/",
+  "context": "",
+  "expected": [
+   "ˌhɛnli"
+  ]
+ },
+ {
+  "title": "Henri Bergson",
+  "ipa": "/ˈbɜːrɡsən, ˈbɛərɡ-/",
+  "context": "",
+  "expected": [
+   "ˈbɜːrɡsən",
+   "ˈbɛərɡsən"
+  ]
+ },
+ {
+  "title": "Henryk Sienkiewicz",
+  "ipa": "/ʃɛnˈkjeɪvɪtʃ, -jɛv-/",
+  "context": "",
+  "expected": [
+   "ʃɛnˈkjeɪvɪtʃ",
+   "ʃɛnˈkjɛvɪtʃ"
+  ]
+ },
+ {
+  "title": "Herbicide",
+  "ipa": "/ˈhɜːr-/",
+  "context": "/ˈɜːrbɪsaɪdz/",
+  "expected": [
+   "ˈhɜːrbɪsaɪdz"
+  ]
+ },
+ {
+  "title": "Hohenstaufen",
+  "ipa": "/-staʊ-/",
+  "context": "/ˈhoʊənʃtaʊfən/",
+  "expected": [
+   "ˈhoʊənstaʊfən"
+  ]
+ },
+ {
+  "title": "Holocene",
+  "ipa": "/ˈhɒl.əsiːn, -oʊ-, ˈhoʊ.lə-, -loʊ-/",
+  "context": "",
+  "expected": [
+   "ˈhɒl.əsiːn",
+   "ˈhɒloʊsiːn",
+   "ˈhoʊ.ləsiːn",
+   "ˈhɒloʊsiːn"
+  ]
+ },
+ {
+  "title": "Homunculus",
+  "ipa": "/hoʊˈ-/",
+  "context": "/hɒˈmʌŋkjʊləs/, /hɒˈmʌŋkjʊlaɪ/, /hoʊˈ-/",
+  "expected": [
+   "hoʊˈmʌŋkjʊləs"
+  ]
+ },
+ {
+  "title": "Homunculus",
+  "ipa": "/hoʊˈ-/",
+  "context": "/hɒˈmʌŋkjʊlaɪ/, /hoʊˈ-/, /hɒˈmʌŋkjʊləs/",
+  "expected": [
+   "hoʊˈmʌŋkjʊlaɪ"
+  ]
+ },
+ {
+  "title": "Honoré de Balzac",
+  "ipa": "/ˈbɔːl-/",
+  "context": "/ˈbælzæk/",
+  "expected": [
+   "ˈbɔːlzæk"
+  ]
+ },
+ {
+  "title": "House of Hohenzollern",
+  "ipa": "/-nˈzɔːl-, -ntˈsɔːl-/",
+  "context": "/ˌhoʊənˈzɒlərn/",
+  "expected": [
+   "ˌhoʊənˈzɔːlərn",
+   "ˌhoʊəntˈsɔːlərn"
+  ]
+ },
+ {
+  "title": "House of Kuadzhe",
+  "ipa": "/ˈkwɑːdʒeɪˌ -ə/",
+  "context": "",
+  "expected": [
+   "ˈkwɑːdʒeɪ",
+   "ˈkwɑːdʒə"
+  ]
+ },
+ {
+  "title": "Hypothyroidism",
+  "ipa": "/ˌhaɪpəˈθaɪrɔɪdɪzəm, -poʊ-/",
+  "context": "",
+  "expected": [
+   "ˌhaɪpəˈθaɪrɔɪdɪzəm",
+   "ˌhaɪpoʊˈθaɪrɔɪdɪzəm"
+  ]
+ },
+ {
+  "title": "International Union of Pure and Applied Chemistry",
+  "ipa": "/ˈaɪjuːpæk, ˈjuː-/",
+  "context": "",
+  "expected": [
+   "ˈaɪjuːpæk",
+   "ˈjuːpæk"
+  ]
+ },
+ {
+  "title": "Isuzu",
+  "ipa": "/iˈsuzu, aɪ-/",
+  "context": "",
+  "expected": [
+   "iˈsuzu",
+   "aɪˈsuzu"
+  ]
+ },
+ {
+  "title": "Italo Calvino",
+  "ipa": "/kɑːlˈ-/",
+  "context": "/kælˈviːnoʊ/",
+  "expected": [
+   "kɑːlˈviːnoʊ"
+  ]
+ },
+ {
+  "title": "Jack Nicklaus",
+  "ipa": "/ˈnɪkləsˌ ˈnɪkəl-/",
+  "context": "",
+  "expected": [
+   "ˈnɪkləs",
+   "ˈnɪkələs"
+  ]
+ },
+ {
+  "title": "Jacobian matrix and determinant",
+  "ipa": "/dʒɪ-, jɪ-/",
+  "context": "/dʒəˈkoʊbiən/",
+  "expected": [
+   "dʒɪˈkoʊbiən",
+   "jɪˈkoʊbiən"
+  ]
+ },
+ {
+  "title": "Jalapeño",
+  "ipa": "/ˌhæləˈpiːnjoʊ, ˌhɑːl-, -ˈpeɪ-/",
+  "context": "",
+  "expected": [
+   "ˌhæləˈpiːnjoʊ",
+   "ˌhɑːləˈpiːnjoʊ",
+   "ˌhæləˈpeɪnjoʊ"
+  ]
+ },
+ {
+  "title": "Javanese language",
+  "ipa": "/-ˈniːs/",
+  "context": "/dʒævə-/, /ˌdʒɑːvəˈniːz/",
+  "expected": [
+   "ˌdʒɑːvəˈniːs"
+  ]
+ },
+ {
+  "title": "Javanese language",
+  "ipa": "/dʒævə-/",
+  "context": "/ˌdʒɑːvəˈniːz/, /-ˈniːs/",
+  "expected": [
+   "ˌdʒævəˈniːz"
+  ]
+ },
+ {
+  "title": "Jesuits",
+  "ipa": "/ˈdʒɛʒuɪts, ˈdʒɛzju-/",
+  "context": "",
+  "expected": [
+   "ˈdʒɛʒuɪts",
+   "ˈdʒɛzjuɪts"
+  ]
+ },
+ {
+  "title": "Johannesburg",
+  "ipa": "/-ˈhɑːn-/",
+  "context": "/dʒoʊˈhænɪsbɜːrɡ/",
+  "expected": [
+   "dʒoʊˈhɑːnɪsbɜːrɡ"
+  ]
+ },
+ {
+  "title": "Kalmyks",
+  "ipa": "/ˌkæl.ˈmiːks, ˌkɑːl.-/",
+  "context": "/ˌkæl.ˈmʌks, ˌkɑːl.-/",
+  "expected": [
+   "ˌkæl.ˈmiːks",
+   "ˌkɑːl.ˈmiːks"
+  ]
+ },
+ {
+  "title": "Kalmyks",
+  "ipa": "/ˌkæl.ˈmʌks, ˌkɑːl.-/",
+  "context": "/ˌkæl.ˈmiːks, ˌkɑːl.-/",
+  "expected": [
+   "ˌkæl.ˈmʌks",
+   "ˌkɑːl.ˈmʌks"
+  ]
+ },
+ {
+  "title": "Kanji",
+  "ipa": "[kä̀ɲ̟́.ɟ̟͡ʑí, kä́ɲ̟́.-]",
+  "context": "",
+  "expected": [
+   "kä̀ɲ̟́.ɟ̟͡ʑí",
+   "kä́ɲ̟́.ɟ̟͡ʑí"
+  ]
+ },
+ {
+  "title": "Kanji",
+  "ipa": "/ˈkæn.dʒi, ˈkɑːn.-/",
+  "context": "",
+  "expected": [
+   "ˈkæn.dʒi",
+   "ˈkɑːn.dʒi"
+  ]
+ },
+ {
+  "title": "Kaolinite",
+  "ipa": "/ˈkeɪ.ələˌnaɪt, -lɪ-/",
+  "context": "/ˈkeɪ.əlɪn/",
+  "expected": [
+   "ˈkeɪ.ələˌnaɪt",
+   "ˈkeɪ.əlɪˌnaɪt"
+  ]
+ },
+ {
+  "title": "Kaposi's sarcoma",
+  "ipa": "/ˈkɑːpəsiz, ˈkæpə-/",
+  "context": "/kæˈpoʊsiz/",
+  "expected": [
+   "ˈkɑːpəsiz",
+   "ˈkæpəsiz"
+  ]
+ },
+ {
+  "title": "Kartvelian languages",
+  "ipa": "/kɑːrtˈvɛliən, -ˈviːl-/",
+  "context": "",
+  "expected": [
+   "kɑːrtˈvɛliən",
+   "kɑːrtˈviːliən"
+  ]
+ },
+ {
+  "title": "Kentucky",
+  "ipa": "/kɛn-/",
+  "context": "/kənˈtʌki/",
+  "expected": [
+   "kɛnˈtʌki"
+  ]
+ },
+ {
+  "title": "Krakatoa",
+  "ipa": "/-ˈtaʊ/",
+  "context": "/ˌkrɑːkəˈtoʊə, ˌkræk-/",
+  "expected": [
+   "ˌkrɑːkəˈtaʊ"
+  ]
+ },
+ {
+  "title": "Krakatoa",
+  "ipa": "/ˌkrɑːkəˈtoʊə, ˌkræk-/",
+  "context": "/-ˈtaʊ/",
+  "expected": [
+   "ˌkrɑːkəˈtoʊə",
+   "ˌkrækəˈtoʊə"
+  ]
+ },
+ {
+  "title": "Ku Klux Klan",
+  "ipa": "/ˌkuː klʌks ˈklæn, ˌkjuː-/",
+  "context": "",
+  "expected": [
+   "ˌkuː klʌks ˈklæn",
+   "ˌkjuː klʌks ˈklæn"
+  ]
+ },
+ {
+  "title": "Kubernetes",
+  "ipa": "/ˌk(j)uːbərˈnɛtɪs, -ˈneɪtɪs, -ˈneɪtiːz, -ˈnɛtiːz/",
+  "context": "",
+  "expected": [
+   "ˌk(j)uːbərˈnɛtɪs",
+   "ˌk(j)uːbərˈneɪtɪs",
+   "ˌk(j)uːbərˈneɪtiːz",
+   "ˌk(j)uːbərˈnɛtiːz"
+  ]
+ },
+ {
+  "title": "La Scala",
+  "ipa": "/lɑː -/",
+  "context": "/læ ˈskɑːlə/",
+  "expected": [
+   "lɑː ˈskɑːlə"
+  ]
+ },
+ {
+  "title": "Lafayette, Indiana",
+  "ipa": "/ˌlɑːfiˈɛt, ˌlæf-/",
+  "context": "",
+  "expected": [
+   "ˌlɑːfiˈɛt",
+   "ˌlæfiˈɛt"
+  ]
+ },
+ {
+  "title": "Lafayette, Louisiana",
+  "ipa": "/ˌlæfiˈjɛt, ˌlɑːf-/",
+  "context": "",
+  "expected": [
+   "ˌlæfiˈjɛt",
+   "ˌlɑːfiˈjɛt"
+  ]
+ },
+ {
+  "title": "Lake Tanganyika",
+  "ipa": "/ˌtæŋɡənˈjiːkə, -ɡæn-/",
+  "context": "",
+  "expected": [
+   "ˌtæŋɡənˈjiːkə",
+   "ˌtæŋɡænˈjiːkə"
+  ]
+ },
+ {
+  "title": "Las Palmas",
+  "ipa": "/ˌlæs ˈpælməs, - ˈpɑːl-/",
+  "context": "/ˌlɑːs ˈpɑːlməs, -mɑːs/",
+  "expected": [
+   "ˌlæs ˈpælməs",
+   "ˌlæs ˈpɑːlməs"
+  ]
+ },
+ {
+  "title": "Las Palmas",
+  "ipa": "/ˌlɑːs ˈpɑːlməs, -mɑːs/",
+  "context": "/ˌlæs ˈpælməs, - ˈpɑːl-/",
+  "expected": [
+   "ˌlɑːs ˈpɑːlməs",
+   "ˌlɑːs ˈpɑːlmɑːs"
+  ]
+ },
+ {
+  "title": "Lazio",
+  "ipa": "/-ʃəm/",
+  "context": "/ˈleɪʃiəm/, /ˈlɑːt-/, /ˈlætsioʊ/",
+  "expected": [
+   "ˈleɪʃəm"
+  ]
+ },
+ {
+  "title": "Lazio",
+  "ipa": "/ˈlɑːt-/",
+  "context": "/ˈlætsioʊ/, /ˈleɪʃiəm/, /-ʃəm/",
+  "expected": [
+   "ˈlɑːtsioʊ"
+  ]
+ },
+ {
+  "title": "Leo Tolstoy",
+  "ipa": "/ˈtoʊlstɔɪ, ˈtɒl-/",
+  "context": "",
+  "expected": [
+   "ˈtoʊlstɔɪ",
+   "ˈtɒlstɔɪ"
+  ]
+ },
+ {
+  "title": "Lieutenant colonel",
+  "ipa": "/luːˈtɛn-/",
+  "context": "/lɛfˈtɛnənt ˈkɜːrnəl/",
+  "expected": [
+   "luːˈtɛnənt ˈkɜːrnəl"
+  ]
+ },
+ {
+  "title": "Limoges",
+  "ipa": "/liːˈ-/",
+  "context": "/lɪˈmoʊʒ/",
+  "expected": [
+   "liːˈmoʊʒ"
+  ]
+ },
+ {
+  "title": "Longitude",
+  "ipa": "/ˈlɒŋɡɪ-/",
+  "context": "/ˈlɒndʒɪtjuːd/",
+  "expected": [
+   "ˈlɒŋɡɪtjuːd"
+  ]
+ },
+ {
+  "title": "Los Gatos, California",
+  "ipa": "/loʊs ˈɡɑːtoʊs, lɔːs -/",
+  "context": "",
+  "expected": [
+   "loʊs ˈɡɑːtoʊs",
+   "lɔːs ˈɡɑːtoʊs"
+  ]
+ },
+ {
+  "title": "Madrasa",
+  "ipa": "/-rɑːs-/",
+  "context": "/məˈdræsə/, /ˈmædrɑːsə/",
+  "expected": [
+   "məˈdrɑːsə"
+  ]
+ },
+ {
+  "title": "Mahabharata",
+  "ipa": "/məˌhɑːˈbɑːrətə, ˌmɑːhə-/",
+  "context": "",
+  "expected": [
+   "məˌhɑːˈbɑːrətə",
+   "ˌmɑːhəˈbɑːrətə"
+  ]
+ },
+ {
+  "title": "Maluku Islands",
+  "ipa": "/məˈlʊkuː, -ˈluː-/",
+  "context": "/məˈlʌkəz/",
+  "expected": [
+   "məˈlʊkuː",
+   "məˈluːkuː"
+  ]
+ },
+ {
+  "title": "Mantra",
+  "ipa": "/ˈmæntrə, ˈmʌn-/",
+  "context": "",
+  "expected": [
+   "ˈmæntrə",
+   "ˈmʌntrə"
+  ]
+ },
+ {
+  "title": "Mariachi",
+  "ipa": "/ˌmær-/",
+  "context": "/ˌmɑːriˈɑːtʃi/",
+  "expected": [
+   "ˌmæriˈɑːtʃi"
+  ]
+ },
+ {
+  "title": "Maribor",
+  "ipa": "/ˈmɑːr-/",
+  "context": "/ˈmærɪbɔːr/",
+  "expected": [
+   "ˈmɑːrɪbɔːr"
+  ]
+ },
+ {
+  "title": "Maricopa County, Arizona",
+  "ipa": "/ˌmærɪˈkoʊpə, ˌmɛər-/",
+  "context": "",
+  "expected": [
+   "ˌmærɪˈkoʊpə",
+   "ˌmɛərɪˈkoʊpə"
+  ]
+ },
+ {
+  "title": "Marlboro",
+  "ipa": "/ˈmɑːrlbərə, ˈmɔːl-/",
+  "context": "/ˈmɑːlˌbʌroʊ/",
+  "expected": [
+   "ˈmɑːrlbərə",
+   "ˈmɔːlbərə"
+  ]
+ },
+ {
+  "title": "Marquis de Lafayette",
+  "ipa": "/ˌlɑːfiˈɛt, ˌlæf-/",
+  "context": "",
+  "expected": [
+   "ˌlɑːfiˈɛt",
+   "ˌlæfiˈɛt"
+  ]
+ },
+ {
+  "title": "Marshmallow",
+  "ipa": "/ˈmɑːrʃˌmɛloʊ, -mæl-/",
+  "context": "/ˌmɑːrʃˈmæloʊ/",
+  "expected": [
+   "ˈmɑːrʃˌmɛloʊ",
+   "ˈmɑːrʃˌmæloʊ"
+  ]
+ },
+ {
+  "title": "Mauna Kea",
+  "ipa": "/ˌmɔːnə ˈkeɪə, ˌmaʊnə -/",
+  "context": "",
+  "expected": [
+   "ˌmɔːnə ˈkeɪə",
+   "ˌmaʊnə ˈkeɪə"
+  ]
+ },
+ {
+  "title": "Mauna Loa",
+  "ipa": "/ˌmɔːnə ˈloʊ.ə, ˌmaʊnə -/",
+  "context": "",
+  "expected": [
+   "ˌmɔːnə ˈloʊ.ə",
+   "ˌmaʊnə ˈloʊ.ə"
+  ]
+ },
+ {
+  "title": "Mesozoic",
+  "ipa": "/ˌmɛzəˈzoʊ.ɪk, -zoʊ-, ˌmɛs-, ˌmiːz-, ˌmiː.s-/",
+  "context": "",
+  "expected": [
+   "ˌmɛzəˈzoʊ.ɪk",
+   "ˌmɛzoʊˈzoʊ.ɪk",
+   "ˌmɛsəˈzoʊ.ɪk",
+   "ˌmiːzəˈzoʊ.ɪk",
+   "ˌmiː.səˈzoʊ.ɪk"
+  ]
+ },
+ {
+  "title": "Messina",
+  "ipa": "/mɪˈ-/",
+  "context": "/mɛˈsiːnə/",
+  "expected": [
+   "mɪˈsiːnə"
+  ]
+ },
+ {
+  "title": "Methotrexate",
+  "ipa": "/ˌmɛθəˈtrɛkˌseɪt, ˌmiː-, -θoʊ-/",
+  "context": "",
+  "expected": [
+   "ˌmɛθəˈtrɛkˌseɪt",
+   "ˌmiːθəˈtrɛkˌseɪt",
+   "ˌmɛθoʊˈtrɛkˌseɪt"
+  ]
+ },
+ {
+  "title": "Methylphenidate",
+  "ipa": "/ˌmɛθəlˈfɛnɪdeɪt, -ˈfiː-/",
+  "context": "",
+  "expected": [
+   "ˌmɛθəlˈfɛnɪdeɪt",
+   "ˌmɛθəlˈfiːnɪdeɪt"
+  ]
+ },
+ {
+  "title": "Metonymy",
+  "ipa": "/mɪˈtɒnɪmi, mɛ-/",
+  "context": "",
+  "expected": [
+   "mɪˈtɒnɪmi",
+   "mɛˈtɒnɪmi"
+  ]
+ },
+ {
+  "title": "Michelangelo Antonioni",
+  "ipa": "/ænˌtoʊ-/",
+  "context": "/ˌæntoʊniˈoʊni/",
+  "expected": [
+   "ænˌtoʊniˈoʊni"
+  ]
+ },
+ {
+  "title": "Milan Kundera",
+  "ipa": "/ˈkʊndərə, ˈkʌn-/",
+  "context": "",
+  "expected": [
+   "ˈkʊndərə",
+   "ˈkʌndərə"
+  ]
+ },
+ {
+  "title": "Minkowski spacetime",
+  "ipa": "/mɪŋˈkɔːfski, -ˈkɒf-/",
+  "context": "",
+  "expected": [
+   "mɪŋˈkɔːfski",
+   "mɪŋˈkɒfski"
+  ]
+ },
+ {
+  "title": "Miocene",
+  "ipa": "/ˈmaɪ.əsiːn, -oʊ-/",
+  "context": "",
+  "expected": [
+   "ˈmaɪ.əsiːn",
+   "ˈmaɪoʊsiːn"
+  ]
+ },
+ {
+  "title": "Modena",
+  "ipa": "/ˈmoʊd-/",
+  "context": "/ˈmɒdɪnə/",
+  "expected": [
+   "ˈmoʊdɪnə"
+  ]
+ },
+ {
+  "title": "Modest Mussorgsky",
+  "ipa": "/mʊˈsɔːrɡski, -ˈzɔːrɡ-/",
+  "context": "",
+  "expected": [
+   "mʊˈsɔːrɡski",
+   "mʊˈzɔːrɡski"
+  ]
+ },
+ {
+  "title": "Molecular phylogenetics",
+  "ipa": "/məˈlɛkjʊlər ˌfaɪloʊdʒəˈnɛtɪks, mɒ-, moʊ-/",
+  "context": "",
+  "expected": [
+   "məˈlɛkjʊlər ˌfaɪloʊdʒəˈnɛtɪks",
+   "mɒˈlɛkjʊlər ˌfaɪloʊdʒəˈnɛtɪks",
+   "moʊˈlɛkjʊlər ˌfaɪloʊdʒəˈnɛtɪks"
+  ]
+ },
+ {
+  "title": "Molière",
+  "ipa": "/ˈmɒliɛər, ˈmoʊl-/",
+  "context": "/moʊlˈjɛər, ˌmoʊliˈɛər/",
+  "expected": [
+   "ˈmɒliɛər",
+   "ˈmoʊliɛər"
+  ]
+ },
+ {
+  "title": "Montmartre",
+  "ipa": "/moʊnˈ-/",
+  "context": "/mɒnˈmɑːrtrə/",
+  "expected": [
+   "moʊnˈmɑːrtrə"
+  ]
+ },
+ {
+  "title": "Mosque",
+  "ipa": "/ˈmæsdʒɪd, ˈmʌs-/",
+  "context": "/mɒsk/",
+  "expected": [
+   "ˈmæsdʒɪd",
+   "ˈmʌsdʒɪd"
+  ]
+ },
+ {
+  "title": "Mount Olympus",
+  "ipa": "/oʊˈlɪmpəs, əˈlɪm-/",
+  "context": "",
+  "expected": [
+   "oʊˈlɪmpəs",
+   "əˈlɪmpəs"
+  ]
+ },
+ {
+  "title": "Mulatto",
+  "ipa": "/məˈlɑːtoʊ, mjuːˈ-/",
+  "context": "/mjuːˈlætoʊ, məˈ-/",
+  "expected": [
+   "məˈlɑːtoʊ",
+   "mjuːˈlɑːtoʊ"
+  ]
+ },
+ {
+  "title": "Mulatto",
+  "ipa": "/mjuːˈlætoʊ, məˈ-/",
+  "context": "/məˈlɑːtoʊ, mjuːˈ-/",
+  "expected": [
+   "mjuːˈlætoʊ",
+   "məˈlætoʊ"
+  ]
+ },
+ {
+  "title": "Musée d'Orsay",
+  "ipa": "/mjuːˈzeɪ -/",
+  "context": "/ˌmjuːzeɪ dɔːrˈseɪ/",
+  "expected": [
+   "mjuːˈzeɪ dɔːrˈseɪ"
+  ]
+ },
+ {
+  "title": "Mykonos",
+  "ipa": "/ˈmiːk-/",
+  "context": "/ˈmɪkənɒs, -noʊs/",
+  "expected": [
+   "ˈmiːkənɒs"
+  ]
+ },
+ {
+  "title": "Mykonos",
+  "ipa": "/ˈmɪkənɒs, -noʊs/",
+  "context": "/ˈmiːk-/",
+  "expected": [
+   "ˈmɪkənɒs",
+   "ˈmɪkənoʊs"
+  ]
+ },
+ {
+  "title": "Navajo language",
+  "ipa": "/ˈnævəhoʊ, ˈnɑːvə-/",
+  "context": "",
+  "expected": [
+   "ˈnævəhoʊ",
+   "ˈnɑːvəhoʊ"
+  ]
+ },
+ {
+  "title": "Nematode",
+  "ipa": "/ˈnɛməˌtoʊdz, ˈniːmə-/",
+  "context": "",
+  "expected": [
+   "ˈnɛməˌtoʊdz",
+   "ˈniːməˌtoʊdz"
+  ]
+ },
+ {
+  "title": "Neologism",
+  "ipa": "/ˌniːoʊˈloʊ-/",
+  "context": "/niˈɒlədʒɪzəm/",
+  "expected": [
+   "ˌniːoʊˈloʊdʒɪzəm"
+  ]
+ },
+ {
+  "title": "Neoplasm",
+  "ipa": "/ˈniːoʊplæzəm, ˈniːə-/",
+  "context": "",
+  "expected": [
+   "ˈniːoʊplæzəm",
+   "ˈniːəplæzəm"
+  ]
+ },
+ {
+  "title": "Neuchâtel",
+  "ipa": "/-ʃɑːˈ-, ˌnjuːʃəˈ-, ˌnʊʃɑːˈ-/",
+  "context": "/ˌnɜːʃæˈtɛl/",
+  "expected": [
+   "ˌnɜːʃɑːˈtɛl",
+   "ˌnjuːʃəˈtɛl",
+   "ˌnʊʃɑːˈtɛl"
+  ]
+ },
+ {
+  "title": "Newport News, Virginia",
+  "ipa": "/ˌnuːpɔːrt -, -pərt -/",
+  "context": "",
+  "expected": [
+   "ˌnuːpɔːrt"
+  ]
+ },
+ {
+  "title": "Nidifugous and nidicolous organisms",
+  "ipa": "/-jə-/",
+  "context": "/naɪˈdɪfjʊɡəs/, /naɪˈdɪkələs/",
+  "expected": [
+   "naɪˈdɪfjəɡəs"
+  ]
+ },
+ {
+  "title": "Nitzer Ebb",
+  "ipa": "/ˈnaɪtsər ɛb, ˈnɪt-/",
+  "context": "",
+  "expected": [
+   "ˈnaɪtsər ɛb",
+   "ˈnɪtsər ɛb"
+  ]
+ },
+ {
+  "title": "Nouakchott",
+  "ipa": "/nwækˈʃɒt, nwɑː-/",
+  "context": "",
+  "expected": [
+   "nwækˈʃɒt",
+   "nwɑːkˈʃɒt"
+  ]
+ },
+ {
+  "title": "NSYNC",
+  "ipa": "/ɛnˈsɪŋk, ɪn-/",
+  "context": "",
+  "expected": [
+   "ɛnˈsɪŋk",
+   "ɪnˈsɪŋk"
+  ]
+ },
+ {
+  "title": "Nynorsk",
+  "ipa": "/ˈnjuːnɔːsk, ˈniː-/",
+  "context": "/njuːˈnɔːrsk, niːˈ-/",
+  "expected": [
+   "ˈnjuːnɔːsk",
+   "ˈniːnɔːsk"
+  ]
+ },
+ {
+  "title": "Nynorsk",
+  "ipa": "/njuːˈnɔːrsk, niːˈ-/",
+  "context": "/ˈnjuːnɔːsk, ˈniː-/",
+  "expected": [
+   "njuːˈnɔːrsk",
+   "niːˈnɔːrsk"
+  ]
+ },
+ {
+  "title": "Obsidian",
+  "ipa": "/əb.ˈsɪd.i.ən, ɒb.-/",
+  "context": "",
+  "expected": [
+   "əb.ˈsɪd.i.ən",
+   "ɒb.ˈsɪd.i.ən"
+  ]
+ },
+ {
+  "title": "Oklahoma City",
+  "ipa": "/ˌoʊkləˈhoʊmə -/",
+  "context": "",
+  "expected": [
+   "ˌoʊkləˈhoʊmə"
+  ]
+ },
+ {
+  "title": "Old Church Slavonic",
+  "ipa": "/sləˈvɒnɪk, slæˈvɒn-/",
+  "context": "",
+  "expected": [
+   "sləˈvɒnɪk",
+   "slæˈvɒnɪk"
+  ]
+ },
+ {
+  "title": "Olmecs",
+  "ipa": "/ˈɒlmɛks, ˈoʊl-/",
+  "context": "",
+  "expected": [
+   "ˈɒlmɛks",
+   "ˈoʊlmɛks"
+  ]
+ },
+ {
+  "title": "Olympus Mons",
+  "ipa": "/əˌlɪmpəs ˈmɒnz, oʊ-/",
+  "context": "",
+  "expected": [
+   "əˌlɪmpəs ˈmɒnz",
+   "oʊˌlɪmpəs ˈmɒnz"
+  ]
+ },
+ {
+  "title": "Ombudsman",
+  "ipa": "/-bədz-, -bʌdz-/",
+  "context": "/ˈɒmbʊdzmən/",
+  "expected": [
+   "ˈɒmbədzmən",
+   "ˈɒmbʌdzmən"
+  ]
+ },
+ {
+  "title": "Oregano",
+  "ipa": "/ɔːˈrɛɡənoʊ, ə-/",
+  "context": "/ˌɒrɪˈɡɑːnoʊ/",
+  "expected": [
+   "ɔːˈrɛɡənoʊ",
+   "əˈrɛɡənoʊ"
+  ]
+ },
+ {
+  "title": "Osmosis",
+  "ipa": "/ɒs-/",
+  "context": "/ɒzˈmoʊsɪs/",
+  "expected": [
+   "ɒsˈmoʊsɪs"
+  ]
+ },
+ {
+  "title": "Paleocene",
+  "ipa": "/ˈpæli.əsiːn, -i.oʊ-, ˈpeɪli-/",
+  "context": "",
+  "expected": [
+   "ˈpæli.əsiːn",
+   "ˈpæli.oʊsiːn",
+   "ˈpeɪli.əsiːn"
+  ]
+ },
+ {
+  "title": "Paleogene",
+  "ipa": "/ˈpeɪli.ədʒiːn, -li.oʊ-, ˈpæli-/",
+  "context": "",
+  "expected": [
+   "ˈpeɪli.ədʒiːn",
+   "ˈpeɪli.oʊdʒiːn",
+   "ˈpæli.ədʒiːn"
+  ]
+ },
+ {
+  "title": "Paleozoic",
+  "ipa": "/ˌpæli.əˈzoʊ.ɪk, -i.oʊ-, ˌpeɪ-/",
+  "context": "",
+  "expected": [
+   "ˌpæli.əˈzoʊ.ɪk",
+   "ˌpæli.oʊˈzoʊ.ɪk",
+   "ˌpeɪli.əˈzoʊ.ɪk"
+  ]
+ },
+ {
+  "title": "Pallesthesia",
+  "ipa": "/ˌpæləsˈθiːʒəˌ -iə/",
+  "context": "",
+  "expected": [
+   "ˌpæləsˈθiːʒə",
+   "ˌpæləsˈθiːʒiə"
+  ]
+ },
+ {
+  "title": "Parthenogenesis",
+  "ipa": "/ˌpɑːrθɪnoʊˈdʒɛnɪsɪs, -θɪnə-/",
+  "context": "",
+  "expected": [
+   "ˌpɑːrθɪnoʊˈdʒɛnɪsɪs",
+   "ˌpɑːrθɪnəˈdʒɛnɪsɪs"
+  ]
+ },
+ {
+  "title": "Passover",
+  "ipa": "/ˈpɛsɑːx, ˈpeɪ-/",
+  "context": "/pæsk/",
+  "expected": [
+   "ˈpɛsɑːx",
+   "ˈpeɪsɑːx"
+  ]
+ },
+ {
+  "title": "Pastiche",
+  "ipa": "/pæˈstiːʃ, pɑː-/",
+  "context": "",
+  "expected": [
+   "pæˈstiːʃ",
+   "pɑːˈstiːʃ"
+  ]
+ },
+ {
+  "title": "Perugia",
+  "ipa": "/-dʒiə, peɪˈ-/",
+  "context": "/pəˈruːdʒə/",
+  "expected": [
+   "pəˈruːdʒiə",
+   "peɪˈruːdʒə"
+  ]
+ },
+ {
+  "title": "Petiole (botany)",
+  "ipa": "/ˈpiːti.oʊl, ˈpɛti-/",
+  "context": "",
+  "expected": [
+   "ˈpiːti.oʊl",
+   "ˈpɛti.oʊl"
+  ]
+ },
+ {
+  "title": "Phenylalanine",
+  "ipa": "/ˌfiːnaɪl-/",
+  "context": "/ˌfɛnəlˈæləniːn/",
+  "expected": [
+   "ˌfiːnaɪlˈæləniːn"
+  ]
+ },
+ {
+  "title": "Philippine peso",
+  "ipa": "/ˈpiː-/",
+  "context": "/ˈpɛsɔː/",
+  "expected": [
+   "ˈpiːsɔː"
+  ]
+ },
+ {
+  "title": "Philosophiæ Naturalis Principia Mathematica",
+  "ipa": "/prɪnˈsɪpiə, -ˈkɪp-/",
+  "context": "",
+  "expected": [
+   "prɪnˈsɪpiə",
+   "prɪnˈkɪpiə"
+  ]
+ },
+ {
+  "title": "Phylogenetics",
+  "ipa": "/ˌfaɪloʊdʒəˈnɛtɪks, -lə-/",
+  "context": "",
+  "expected": [
+   "ˌfaɪloʊdʒəˈnɛtɪks",
+   "ˌfaɪlədʒəˈnɛtɪks"
+  ]
+ },
+ {
+  "title": "Piet Mondrian",
+  "ipa": "/- ˈmɔːn-/",
+  "context": "/piːt ˈmɒndriɑːn/",
+  "expected": [
+   "piːt ˈmɔːndriɑːn"
+  ]
+ },
+ {
+  "title": "Piezoelectricity",
+  "ipa": "/ˌpiːzoʊ-, ˌpiːtsoʊ-, paɪˌiːzoʊ-/",
+  "context": "/piˌeɪzoʊ-, piˌeɪtsoʊ-/",
+  "expected": [
+   "ˌpiːzoʊ"
+  ]
+ },
+ {
+  "title": "Piezoelectricity",
+  "ipa": "/piˌeɪzoʊ-, piˌeɪtsoʊ-/",
+  "context": "/ˌpiːzoʊ-, ˌpiːtsoʊ-, paɪˌiːzoʊ-/",
+  "expected": [
+   "piˌeɪzoʊ"
+  ]
+ },
+ {
+  "title": "Pistachio",
+  "ipa": "/pɪˈstɑːʃioʊ, -ˈstæʃ-/",
+  "context": "/pɪˈstætʃ(i)oʊ/",
+  "expected": [
+   "pɪˈstɑːʃioʊ",
+   "pɪˈstæʃioʊ"
+  ]
+ },
+ {
+  "title": "Pleiades",
+  "ipa": "/ˈpliː.ədiːz, ˈpleɪ-, ˈplaɪ-/",
+  "context": "",
+  "expected": [
+   "ˈpliː.ədiːz",
+   "ˈpleɪ.ədiːz",
+   "ˈplaɪ.ədiːz"
+  ]
+ },
+ {
+  "title": "Pleistocene",
+  "ipa": "/ˈplaɪstəˌsiːn, -stoʊ-/",
+  "context": "",
+  "expected": [
+   "ˈplaɪstəˌsiːn",
+   "ˈplaɪstoʊˌsiːn"
+  ]
+ },
+ {
+  "title": "Pliocene",
+  "ipa": "/ˈplaɪ.əsiːn, ˈplaɪ.oʊ-/",
+  "context": "",
+  "expected": [
+   "ˈplaɪ.əsiːn",
+   "ˈplaɪ.oʊsiːn"
+  ]
+ },
+ {
+  "title": "Pocahontas",
+  "ipa": "/ˌpɒk-/",
+  "context": "/ˌpoʊkəˈhɒntəs/",
+  "expected": [
+   "ˌpɒkəˈhɒntəs"
+  ]
+ },
+ {
+  "title": "Pointillism",
+  "ipa": "/ˈpwɑːn-ˌ ˈpɔɪn-/",
+  "context": "/ˈpwæ̃tɪlɪzəm/",
+  "expected": [
+   "ˈpwɑːntɪlɪzəm",
+   "ˈpɔɪntɪlɪzəm"
+  ]
+ },
+ {
+  "title": "Polaris",
+  "ipa": "/pəˈlɛərɪs, -ˈlær-/",
+  "context": "/pəˈlɑːrɪs/",
+  "expected": [
+   "pəˈlɛərɪs",
+   "pəˈlærɪs"
+  ]
+ },
+ {
+  "title": "Polyandry",
+  "ipa": "/ˈpɒliˌændri, ˌpɒliˈæn-/",
+  "context": "",
+  "expected": [
+   "ˈpɒliˌændri",
+   "ˌpɒliˈændri"
+  ]
+ },
+ {
+  "title": "Pomelo",
+  "ipa": "/ˈpɒmɪloʊ, ˈpʌm-/",
+  "context": "",
+  "expected": [
+   "ˈpɒmɪloʊ",
+   "ˈpʌmɪloʊ"
+  ]
+ },
+ {
+  "title": "Ponce, Puerto Rico",
+  "ipa": "/ˈpɒn-/",
+  "context": "/ˈpɔːnseɪ, ˈpoʊn-/",
+  "expected": [
+   "ˈpɒnseɪ"
+  ]
+ },
+ {
+  "title": "Ponce, Puerto Rico",
+  "ipa": "/ˈpɔːnseɪ, ˈpoʊn-/",
+  "context": "/ˈpɒn-/",
+  "expected": [
+   "ˈpɔːnseɪ",
+   "ˈpoʊnseɪ"
+  ]
+ },
+ {
+  "title": "Poseidon",
+  "ipa": "/pəˈsaɪdən, pɒ-, poʊ-/",
+  "context": "",
+  "expected": [
+   "pəˈsaɪdən",
+   "pɒˈsaɪdən",
+   "poʊˈsaɪdən"
+  ]
+ },
+ {
+  "title": "Prayagraj",
+  "ipa": "/ˈpreɪəˌɡrɑːdʒ, ˈpraɪə-/",
+  "context": "",
+  "expected": [
+   "ˈpreɪəˌɡrɑːdʒ",
+   "ˈpraɪəˌɡrɑːdʒ"
+  ]
+ },
+ {
+  "title": "Precambrian",
+  "ipa": "/priˈkæmbri.ən, -ˈkeɪm-/",
+  "context": "",
+  "expected": [
+   "priˈkæmbri.ən",
+   "priˈkeɪmbri.ən"
+  ]
+ },
+ {
+  "title": "Pretoria",
+  "ipa": "/prɪˈtɔːriə, pri-/",
+  "context": "",
+  "expected": [
+   "prɪˈtɔːriə",
+   "priˈtɔːriə"
+  ]
+ },
+ {
+  "title": "Primogeniture",
+  "ipa": "/ˌpraɪməˈdʒɛnɪtʃər, -oʊ-/",
+  "context": "",
+  "expected": [
+   "ˌpraɪməˈdʒɛnɪtʃər",
+   "ˌpraɪmoʊˈdʒɛnɪtʃər"
+  ]
+ },
+ {
+  "title": "Pronghorn",
+  "ipa": "/ˈprɔːŋ.-/",
+  "context": "/ˈprɒŋ.hɔːrn/",
+  "expected": [
+   "ˈprɔːŋ.hɔːrn"
+  ]
+ },
+ {
+  "title": "Proprioception",
+  "ipa": "/ˌproʊpri.oʊˈsɛpʃən, -ə-/",
+  "context": "",
+  "expected": [
+   "ˌproʊpri.oʊˈsɛpʃən",
+   "ˌproʊprə.oʊˈsɛpʃən"
+  ]
+ },
+ {
+  "title": "Proterozoic",
+  "ipa": "/ˌproʊtərəˈzoʊɪk, ˌprɒt-, -əroʊ-, -trə-, -troʊ-/",
+  "context": "",
+  "expected": [
+   "ˌproʊtərəˈzoʊɪk",
+   "ˌprɒtərəˈzoʊɪk",
+   "ˌproʊtəroʊˈzoʊɪk",
+   "ˌproʊtrəˈzoʊɪk",
+   "ˌproʊtroʊˈzoʊɪk"
+  ],
+  "todo": "-trə- and -troʊ- tie between replacing 'tə' and 'tərə'"
+ },
+ {
+  "title": "Psilocybin",
+  "ipa": "/ˌsɪl-/",
+  "context": "/ˌsaɪləˈsaɪbɪn/",
+  "expected": [
+   "ˌsɪləˈsaɪbɪn"
+  ]
+ },
+ {
+  "title": "Pulmonology",
+  "ipa": "/nʊˈmɒlədʒi, njʊ-/",
+  "context": "/ˌpʊlməˈnɒlədʒi/, /ˌpʌlməˈnɒlədʒi/, /nʊmənˈɒlədʒi, njʊ-/",
+  "expected": [
+   "nʊˈmɒlədʒi",
+   "njʊˈmɒlədʒi"
+  ]
+ },
+ {
+  "title": "Pulmonology",
+  "ipa": "/nʊmənˈɒlədʒi, njʊ-/",
+  "context": "/nʊˈmɒlədʒi, njʊ-/, /ˌpʊlməˈnɒlədʒi/, /ˌpʌlməˈnɒlədʒi/",
+  "expected": [
+   "nʊmənˈɒlədʒi",
+   "njʊmənˈɒlədʒi"
+  ]
+ },
+ {
+  "title": "Qualia",
+  "ipa": "/-.li, -.leɪ/",
+  "context": "/ˈkwɑː.li.ə, ˈkweɪ.-/",
+  "expected": [
+   "ˈkwɑː.li",
+   "ˈkwɑː.leɪ"
+  ]
+ },
+ {
+  "title": "Qualia",
+  "ipa": "/ˈkwɑː.li.ə, ˈkweɪ.-/",
+  "context": "/-.li, -.leɪ/",
+  "expected": [
+   "ˈkwɑː.li.ə",
+   "ˈkweɪ.li.ə"
+  ]
+ },
+ {
+  "title": "Ragnarök",
+  "ipa": "/ˈrɑːɡ-/",
+  "context": "/ˈræɡnərɒk/",
+  "expected": [
+   "ˈrɑːɡnərɒk"
+  ]
+ },
+ {
+  "title": "Raphael (archangel)",
+  "ipa": "/ˈræfiəl, ˈreɪf-/",
+  "context": "/ˈræfeɪəl/",
+  "expected": [
+   "ˈræfiəl",
+   "ˈreɪfiəl"
+  ]
+ },
+ {
+  "title": "Reggaeton",
+  "ipa": "/ˌrɛɡeɪˈtoʊn, ˌreɪɡ-/",
+  "context": "/ˈrɛɡeɪtoʊn, ˌrɛɡeɪˈtɒn/",
+  "expected": [
+   "ˌrɛɡeɪˈtoʊn",
+   "ˌreɪɡeɪˈtoʊn"
+  ]
+ },
+ {
+  "title": "Risotto",
+  "ipa": "[riˈzɔtto, -ˈsɔt-]",
+  "context": "",
+  "expected": [
+   "riˈzɔtto",
+   "riˈsɔtto"
+  ]
+ },
+ {
+  "title": "Risotto",
+  "ipa": "/-ˈzoʊt-/",
+  "context": "/rɪˈzɒtoʊ/",
+  "expected": [
+   "rɪˈzoʊtoʊ"
+  ]
+ },
+ {
+  "title": "Roald Amundsen",
+  "ipa": "/-məns-/",
+  "context": "/ˈɑːmʊndsən/",
+  "expected": [
+   "ˈɑːmənsən"
+  ]
+ },
+ {
+  "title": "Romani language",
+  "ipa": "/ˈrɒməni, ˈroʊ-/",
+  "context": "/ˈrɒmənɪs/",
+  "expected": [
+   "ˈrɒməni",
+   "ˈroʊməni"
+  ]
+ },
+ {
+  "title": "Ron DeSantis",
+  "ipa": "/dɪˈsæntɪs, diː-/",
+  "context": "",
+  "expected": [
+   "dɪˈsæntɪs",
+   "diːˈsæntɪs"
+  ]
+ },
+ {
+  "title": "Rosicrucianism",
+  "ipa": "/ˌroʊzɪˈkruːʃəˌnɪzəm, ˌrɒzɪ-/",
+  "context": "",
+  "expected": [
+   "ˌroʊzɪˈkruːʃəˌnɪzəm",
+   "ˌrɒzɪˈkruːʃəˌnɪzəm"
+  ]
+ },
+ {
+  "title": "Rudolf Diesel",
+  "ipa": "/ˈdiːzəl, -səl/",
+  "context": "",
+  "expected": [
+   "ˈdiːzəl",
+   "ˈdiːsəl"
+  ]
+ },
+ {
+  "title": "Safavid dynasty",
+  "ipa": "/ˈsæ.fə.vɪd, ˈsɑː.-/",
+  "context": "",
+  "expected": [
+   "ˈsæ.fə.vɪd",
+   "ˈsɑː.fə.vɪd"
+  ]
+ },
+ {
+  "title": "Saint Helena",
+  "ipa": "/ˌseɪnt-/",
+  "context": "/ˌsɛnt (h)ɪˈliːnə, ˌsɪnt-, sənt-/, /ˌseɪnt ˈhɛlənə/",
+  "expected": [
+   "ˌseɪnt (h)ɪˈliːnə"
+  ]
+ },
+ {
+  "title": "Saint Helena",
+  "ipa": "/ˌsɛnt (h)ɪˈliːnə, ˌsɪnt-, sənt-/",
+  "context": "/ˌseɪnt-/, /ˌseɪnt ˈhɛlənə/",
+  "expected": [
+   "ˌsɛnt (h)ɪˈliːnə",
+   "ˌsɪnt (h)ɪˈliːnə",
+   "ˌsənt (h)ɪˈliːnə"
+  ]
+ },
+ {
+  "title": "Saint-Tropez",
+  "ipa": "/ˌsæn troʊˈpeɪ, - trəˈ-/",
+  "context": "",
+  "expected": [
+   "ˌsæn troʊˈpeɪ",
+   "ˌsæn trəˈpeɪ"
+  ]
+ },
+ {
+  "title": "Sama-Bajau",
+  "ipa": "/ˈbɑːdʒaʊ, ˈbæ-/",
+  "context": "",
+  "expected": [
+   "ˈbɑːdʒaʊ",
+   "ˈbædʒaʊ"
+  ]
+ },
+ {
+  "title": "Santander, Spain",
+  "ipa": "/ˌsæntənˈdɛər, -tæn-/",
+  "context": "/ˌsɑːntɑːnˈdɛər/",
+  "expected": [
+   "ˌsæntənˈdɛər",
+   "ˌsæntænˈdɛər"
+  ]
+ },
+ {
+  "title": "Santiago",
+  "ipa": "/ˌsɑːn-/",
+  "context": "/ˌsæntiˈɑːɡoʊ/",
+  "expected": [
+   "ˌsɑːntiˈɑːɡoʊ"
+  ]
+ },
+ {
+  "title": "Scallop",
+  "ipa": "/ˈskɒləp, ˈskæl-/",
+  "context": "",
+  "expected": [
+   "ˈskɒləp",
+   "ˈskæləp"
+  ]
+ },
+ {
+  "title": "Schism",
+  "ipa": "/ˈsɪzəm, ˈskɪz-/",
+  "context": "/ˈʃɪzəm/",
+  "expected": [
+   "ˈsɪzəm",
+   "ˈskɪzəm"
+  ]
+ },
+ {
+  "title": "Schistosomiasis",
+  "ipa": "/ˌʃɪstəsəˈmaɪəsɪs, -toʊ-, -soʊ-/",
+  "context": "",
+  "expected": [
+   "ˌʃɪstəsəˈmaɪəsɪs",
+   "ˌʃɪstoʊsəˈmaɪəsɪs",
+   "ˌʃɪstəsoʊˈmaɪəsɪs"
+  ]
+ },
+ {
+  "title": "Sea cucumber",
+  "ipa": "/ˌhɒləˌθjʊəˈrɔɪdiə, ˌhoʊlə-/",
+  "context": "",
+  "expected": [
+   "ˌhɒləˌθjʊəˈrɔɪdiə",
+   "ˌhoʊləˌθjʊəˈrɔɪdiə"
+  ]
+ },
+ {
+  "title": "Segovia",
+  "ipa": "/seɪˈ-/",
+  "context": "/sɪˈɡoʊviə/",
+  "expected": [
+   "seɪˈɡoʊviə"
+  ]
+ },
+ {
+  "title": "Seismology",
+  "ipa": "/saɪzˈmɒlədʒi, saɪs-/",
+  "context": "",
+  "expected": [
+   "saɪzˈmɒlədʒi",
+   "saɪsˈmɒlədʒi"
+  ]
+ },
+ {
+  "title": "Serotonin",
+  "ipa": "/ˌsɛrəˈtoʊnɪn, ˌsɪərə-/",
+  "context": "",
+  "expected": [
+   "ˌsɛrəˈtoʊnɪn",
+   "ˌsɪərəˈtoʊnɪn"
+  ]
+ },
+ {
+  "title": "Shrewsbury",
+  "ipa": "/ˈʃruːz-/",
+  "context": "/ˈʃroʊzbri/",
+  "expected": [
+   "ˈʃruːzbri"
+  ]
+ },
+ {
+  "title": "Sierra Nevada",
+  "ipa": "/siˌɛrə nɪˈvædə, -ˈvɑːd-/",
+  "context": "",
+  "expected": [
+   "siˌɛrə nɪˈvædə",
+   "siˌɛrə nɪˈvɑːdə"
+  ]
+ },
+ {
+  "title": "Silurian",
+  "ipa": "/sɪˈljʊəri.ən, saɪ-/",
+  "context": "",
+  "expected": [
+   "sɪˈljʊəri.ən",
+   "saɪˈljʊəri.ən"
+  ]
+ },
+ {
+  "title": "Slovene language",
+  "ipa": "/sloʊˈviːn, slə-/",
+  "context": "/ˈsloʊviːn/, /sloʊˈviːniən, slə-/",
+  "expected": [
+   "sloʊˈviːn",
+   "sləˈviːn"
+  ]
+ },
+ {
+  "title": "Slovene language",
+  "ipa": "/sloʊˈviːniən, slə-/",
+  "context": "/sloʊˈviːn, slə-/, /ˈsloʊviːn/",
+  "expected": [
+   "sloʊˈviːniən",
+   "sləˈviːniən"
+  ]
+ },
+ {
+  "title": "Solothurn",
+  "ipa": "/ˈsoʊlətʊərn, ˈzoʊ-/",
+  "context": "",
+  "expected": [
+   "ˈsoʊlətʊərn",
+   "ˈzoʊlətʊərn"
+  ]
+ },
+ {
+  "title": "Somali language",
+  "ipa": "/səˈmɑːli, soʊ-/",
+  "context": "",
+  "expected": [
+   "səˈmɑːli",
+   "soʊˈmɑːli"
+  ]
+ },
+ {
+  "title": "Sotho language",
+  "ipa": "/sɪˈsuːtuː, sə-/",
+  "context": "/ˈsuːtuː/",
+  "expected": [
+   "sɪˈsuːtuː",
+   "səˈsuːtuː"
+  ]
+ },
+ {
+  "title": "Soweto",
+  "ipa": "/səˈwɛtoʊ, -ˈweɪt-, -ˈwiːt-/",
+  "context": "",
+  "expected": [
+   "səˈwɛtoʊ",
+   "səˈweɪtoʊ",
+   "səˈwiːtoʊ"
+  ]
+ },
+ {
+  "title": "Speciesism",
+  "ipa": "/ˈspiːʃiːˌzɪzəm, -siːˌzɪz-/",
+  "context": "",
+  "expected": [
+   "ˈspiːʃiːˌzɪzəm",
+   "ˈspiːsiːˌzɪzəm"
+  ]
+ },
+ {
+  "title": "Spermaceti",
+  "ipa": "/spərməˈsiːtiˌ -ˈsɛ-/",
+  "context": "",
+  "expected": [
+   "spərməˈsiːti",
+   "spərməˈsɛti"
+  ]
+ },
+ {
+  "title": "Sponge",
+  "ipa": "/pəˈrɪfərəˌ pɔː-/",
+  "context": "",
+  "expected": [
+   "pəˈrɪfərə",
+   "pɔːˈrɪfərə"
+  ]
+ },
+ {
+  "title": "Stendhal",
+  "ipa": "/stɛnˈdɑːl, stænˈ-/",
+  "context": "/ˈstɒ̃dɑːl/",
+  "expected": [
+   "stɛnˈdɑːl",
+   "stænˈdɑːl"
+  ]
+ },
+ {
+  "title": "Stratosphere",
+  "ipa": "/ˈstrætəˌsfɪər, -toʊ-/",
+  "context": "",
+  "expected": [
+   "ˈstrætəˌsfɪər",
+   "ˈstrætoʊˌsfɪər"
+  ]
+ },
+ {
+  "title": "Sturm und Drang",
+  "ipa": "/ˌʃtʊərm ʊnt ˈdræŋ, - ˈdrɑːŋ/",
+  "context": "",
+  "expected": [
+   "ˌʃtʊərm ʊnt ˈdræŋ",
+   "ˌʃtʊərm ʊnt ˈdrɑːŋ"
+  ]
+ },
+ {
+  "title": "Stuttgart",
+  "ipa": "/ˈstʌtɡɑːrt, ˈstʊt-/",
+  "context": "",
+  "expected": [
+   "ˈstʌtɡɑːrt",
+   "ˈstʊtɡɑːrt"
+  ]
+ },
+ {
+  "title": "Sudoku",
+  "ipa": "/suːˈdoʊkuː, -ˈdɒk-, sə-/",
+  "context": "",
+  "expected": [
+   "suːˈdoʊkuː",
+   "suːˈdɒkuː",
+   "səˈdoʊkuː"
+  ]
+ },
+ {
+  "title": "Sumac",
+  "ipa": "/ˈsjuː-/",
+  "context": "/ˈsuːmæk, ˈʃuː-/",
+  "expected": [
+   "ˈsjuːmæk"
+  ]
+ },
+ {
+  "title": "Sumac",
+  "ipa": "/ˈsuːmæk, ˈʃuː-/",
+  "context": "/ˈsjuː-/",
+  "expected": [
+   "ˈsuːmæk",
+   "ˈʃuːmæk"
+  ]
+ },
+ {
+  "title": "Svalbard",
+  "ipa": "/ˈsvæl-/",
+  "context": "/ˈsvɑːlbɑːr(d)/",
+  "expected": [
+   "ˈsvælbɑːr(d)"
+  ]
+ },
+ {
+  "title": "Tahini",
+  "ipa": "/təˈhiːni, tɑː-/",
+  "context": "",
+  "expected": [
+   "təˈhiːni",
+   "tɑːˈhiːni"
+  ]
+ },
+ {
+  "title": "Taj Mahal",
+  "ipa": "/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ -/",
+  "context": "",
+  "expected": [
+   "ˌtɑːdʒ məˈhɑːl",
+   "ˌtɑːʒ məˈhɑːl"
+  ]
+ },
+ {
+  "title": "Talmud",
+  "ipa": "/ˈtɑːlmʊd, -məd, ˈtæl-/",
+  "context": "",
+  "expected": [
+   "ˈtɑːlmʊd",
+   "ˈtɑːlməd",
+   "ˈtælmʊd"
+  ]
+ },
+ {
+  "title": "Taro",
+  "ipa": "/ˈtɑːroʊ, ˈtær-/",
+  "context": "",
+  "expected": [
+   "ˈtɑːroʊ",
+   "ˈtæroʊ"
+  ]
+ },
+ {
+  "title": "Teleost",
+  "ipa": "/ˈtɛliɒsts, ˈtiːli-/",
+  "context": "/ˌtɛliˈɒstiaɪ/",
+  "expected": [
+   "ˈtɛliɒsts",
+   "ˈtiːliɒsts"
+  ]
+ },
+ {
+  "title": "Telly Savalas",
+  "ipa": "/səˈvɑːləs, -ˈvæl-/",
+  "context": "",
+  "expected": [
+   "səˈvɑːləs",
+   "səˈvæləs"
+  ]
+ },
+ {
+  "title": "Timbre",
+  "ipa": "/ˈtæmbər, ˈtɪm-, ˈtæ̃-/",
+  "context": "",
+  "expected": [
+   "ˈtæmbər",
+   "ˈtɪmbər",
+   "ˈtæ̃mbər"
+  ]
+ },
+ {
+  "title": "Timișoara",
+  "ipa": "/ˌtiːmiː-/",
+  "context": "/ˌtɪmɪˈʃwɑːrə/",
+  "expected": [
+   "ˌtiːmiːˈʃwɑːrə"
+  ]
+ },
+ {
+  "title": "TNT",
+  "ipa": "/ˌtraɪnaɪtroʊˈtɒljuiːn, traɪˌnaɪ-/",
+  "context": "",
+  "expected": [
+   "ˌtraɪnaɪtroʊˈtɒljuiːn",
+   "traɪˌnaɪtroʊˈtɒljuiːn"
+  ]
+ },
+ {
+  "title": "Tocharian languages",
+  "ipa": "/toʊˈkɛəriənˌ -ˈkɑːr-/",
+  "context": "/tɒˈkɑːriən/",
+  "expected": [
+   "toʊˈkɛəriən",
+   "toʊˈkɑːriən"
+  ]
+ },
+ {
+  "title": "Tocharians",
+  "ipa": "/toʊˈkɛəriənˌ -ˈkɑːr-/",
+  "context": "/tɒˈkɑːriən/",
+  "expected": [
+   "toʊˈkɛəriən",
+   "toʊˈkɑːriən"
+  ]
+ },
+ {
+  "title": "Trilobite",
+  "ipa": "/ˈtraɪləˌbaɪts, ˈtrɪlə-/",
+  "context": "",
+  "expected": [
+   "ˈtraɪləˌbaɪts",
+   "ˈtrɪləˌbaɪts"
+  ]
+ },
+ {
+  "title": "Triskaidekaphobia",
+  "ipa": "/ˌtrɪskə-/",
+  "context": "/ˌtrɪskaɪˌdɛkəˈfoʊbiə/",
+  "expected": [
+   "ˌtrɪskəˌdɛkəˈfoʊbiə"
+  ]
+ },
+ {
+  "title": "Tsunami",
+  "ipa": "/(t)suːˈnɑːmi, (t)sʊˈ-/",
+  "context": "",
+  "expected": [
+   "(t)suːˈnɑːmi",
+   "(t)sʊˈnɑːmi"
+  ]
+ },
+ {
+  "title": "Tuberculosis",
+  "ipa": "/ˌtjuːbər-/",
+  "context": "/tjuːˌbɜːrkjuːˈloʊsɪs/",
+  "expected": [
+   "ˌtjuːbərkjuːˈloʊsɪs"
+  ]
+ },
+ {
+  "title": "Tundra",
+  "ipa": "/ˈtʌndrə, ˈtʊn-/",
+  "context": "",
+  "expected": [
+   "ˈtʌndrə",
+   "ˈtʊndrə"
+  ]
+ },
+ {
+  "title": "Turmeric",
+  "ipa": "/ˈtɜːrmərɪk, ˈtjuː-/",
+  "context": "/ˈkɜːrkjʊmə ˈlɒŋɡə/",
+  "expected": [
+   "ˈtɜːrmərɪk",
+   "ˈtjuːmərɪk"
+  ]
+ },
+ {
+  "title": "Tyrannosaurus",
+  "ipa": "/tɪˌrænəˈsɔːrəs, taɪ-/",
+  "context": "",
+  "expected": [
+   "tɪˌrænəˈsɔːrəs",
+   "taɪˌrænəˈsɔːrəs"
+  ]
+ },
+ {
+  "title": "Ugarit",
+  "ipa": "/juːˈɡɑːrɪt, uː-/",
+  "context": "",
+  "expected": [
+   "juːˈɡɑːrɪt",
+   "uːˈɡɑːrɪt"
+  ]
+ },
+ {
+  "title": "Uzbekistan",
+  "ipa": "/-ˈstæn/",
+  "context": "/ʊzˈbɛkɪstɑːn/, /ʊzˌbɛk-/, /ˌʊzbɛkɪˈstɑːn, ʌz-, -ˈstæn/",
+  "expected": [
+   "ʊzˌbɛkɪˈstæn"
+  ]
+ },
+ {
+  "title": "Uzbekistan",
+  "ipa": "/ˌʊzbɛkɪˈstɑːn, ʌz-, -ˈstæn/",
+  "context": "/ʊzˌbɛk-/, /ʊzˈbɛkɪstɑːn/, /-ˈstæn/",
+  "expected": [
+   "ˌʊzbɛkɪˈstɑːn",
+   "ˌʌzbɛkɪˈstɑːn",
+   "ˌʊzbɛkɪˈstæn"
+  ]
+ },
+ {
+  "title": "Uzbekistan",
+  "ipa": "/ʊzˌbɛk-/",
+  "context": "/ˌʊzbɛkɪˈstɑːn, ʌz-, -ˈstæn/, /ʊzˈbɛkɪstɑːn/, /-ˈstæn/",
+  "expected": [
+   "ʊzˌbɛkɪˈstɑːn"
+  ]
+ },
+ {
+  "title": "Valéry Giscard d'Estaing",
+  "ipa": "/ʒɪˌskɑːr -/",
+  "context": "/ˌʒiːskɑːr dɛˈstæ̃/",
+  "expected": [
+   "ʒɪˌskɑːr dɛˈstæ̃"
+  ]
+ },
+ {
+  "title": "Varuna",
+  "ipa": "/ˈvɜːrʊnə, ˈvɑːrə-/",
+  "context": "",
+  "expected": [
+   "ˈvɜːrʊnə",
+   "ˈvɑːrənə"
+  ]
+ },
+ {
+  "title": "Vaudeville",
+  "ipa": "/ˈvɔːd(ə)vɪl, ˈvoʊ-/",
+  "context": "",
+  "expected": [
+   "ˈvɔːd(ə)vɪl",
+   "ˈvoʊd(ə)vɪl"
+  ]
+ },
+ {
+  "title": "Vauxhall",
+  "ipa": "/ˈvɒks(h)ɔːlˌ -əl/",
+  "context": "",
+  "expected": [
+   "ˈvɒks(h)ɔːl",
+   "ˈvɒks(h)əl"
+  ]
+ },
+ {
+  "title": "Visalia, California",
+  "ipa": "/vaɪˈseɪljə, vɪ-/",
+  "context": "",
+  "expected": [
+   "vaɪˈseɪljə",
+   "vɪˈseɪljə"
+  ]
+ },
+ {
+  "title": "Vitamin",
+  "ipa": "/ˈvɪtəmɪn, ˈvaɪt-/",
+  "context": "/ˈvaɪtəmɪn/",
+  "expected": [
+   "ˈvɪtəmɪn",
+   "ˈvaɪtəmɪn"
+  ]
+ },
+ {
+  "title": "Vlad the Impaler",
+  "ipa": "/ˈdrækjʊlə, -jə-/",
+  "context": "",
+  "expected": [
+   "ˈdrækjʊlə",
+   "ˈdrækjələ"
+  ]
+ },
+ {
+  "title": "Voltaire",
+  "ipa": "/vɒlˈtɛər, voʊl-/",
+  "context": "/vɔːl-/",
+  "expected": [
+   "vɒlˈtɛər",
+   "voʊlˈtɛər"
+  ]
+ },
+ {
+  "title": "Voltaire",
+  "ipa": "/vɔːl-/",
+  "context": "/vɒlˈtɛər, voʊl-/",
+  "expected": [
+   "vɔːlˈtɛər"
+  ]
+ },
+ {
+  "title": "Wakanda",
+  "ipa": "/wəˈkɑːndə, -ˈkæn-/",
+  "context": "",
+  "expected": [
+   "wəˈkɑːndə",
+   "wəˈkændə"
+  ]
+ },
+ {
+  "title": "Waldensians",
+  "ipa": "/wɔːlˈdɛnsiːz, wɒl-/",
+  "context": "",
+  "expected": [
+   "wɔːlˈdɛnsiːz",
+   "wɒlˈdɛnsiːz"
+  ]
+ },
+ {
+  "title": "Walpurgis Night",
+  "ipa": "/vælˈpʊərɡɪs, vɑːl-, -ˈpɜːr-/",
+  "context": "",
+  "expected": [
+   "vælˈpʊərɡɪs",
+   "vɑːlˈpʊərɡɪs",
+   "vælˈpɜːrɡɪs"
+  ]
+ },
+ {
+  "title": "West Lafayette, Indiana",
+  "ipa": "/ˌlɑːfiˈɛt, ˌlæf-/",
+  "context": "",
+  "expected": [
+   "ˌlɑːfiˈɛt",
+   "ˌlæfiˈɛt"
+  ]
+ },
+ {
+  "title": "Wigtown",
+  "ipa": "/ˈwɪɡtənˌ -taʊn/",
+  "context": "",
+  "expected": [
+   "ˈwɪɡtən",
+   "ˈwɪɡtaʊn"
+  ]
+ },
+ {
+  "title": "Wildebeest",
+  "ipa": "/ˈvɪl.-/",
+  "context": "/ˈwɪl.dɪ.biːst/, /nuː/, /njuː/",
+  "expected": [
+   "ˈvɪl.dɪ.biːst"
+  ]
+ },
+ {
+  "title": "Willemstad",
+  "ipa": "/ˈwɪləmstɑːt, ˈvɪl-/",
+  "context": "",
+  "expected": [
+   "ˈwɪləmstɑːt",
+   "ˈvɪləmstɑːt"
+  ]
+ },
+ {
+  "title": "Winchester",
+  "ipa": "/-tʃɛs-/",
+  "context": "/ˈwɪntʃɪstər/",
+  "expected": [
+   "ˈwɪntʃɛstər"
+  ]
+ },
+ {
+  "title": "Württemberg",
+  "ipa": "/ˈwɜːrtəmbɜːrɡ, ˈvɜːrt-/",
+  "context": "",
+  "expected": [
+   "ˈwɜːrtəmbɜːrɡ",
+   "ˈvɜːrtəmbɜːrɡ"
+  ]
+ },
+ {
+  "title": "Yaoundé",
+  "ipa": "/jɑːˈʊndeɪ, -ˈuːn-/",
+  "context": "/ˌjɑːʊnˈdeɪ/",
+  "expected": [
+   "jɑːˈʊndeɪ",
+   "jɑːˈuːndeɪ"
+  ]
+ },
+ {
+  "title": "Yucatán Peninsula",
+  "ipa": "/ˌjuːkəˈtɑːn, -ˈtæn/",
+  "context": "/ˌjʊk-/",
+  "expected": [
+   "ˌjuːkəˈtɑːn",
+   "ˌjuːkəˈtæn"
+  ]
+ },
+ {
+  "title": "Yucatán Peninsula",
+  "ipa": "/ˌjʊk-/",
+  "context": "/ˌjuːkəˈtɑːn, -ˈtæn/",
+  "expected": [
+   "ˌjʊkəˈtɑːn"
+  ]
+ },
+ {
+  "title": "Yves Saint Laurent (designer)",
+  "ipa": "/- lɒ-/",
+  "context": "/ˌiːv ˌsæ̃ lɔːˈrɒ̃/, /- loʊ-/",
+  "expected": [
+   "ˌiːv ˌsæ̃ lɒˈrɒ̃"
+  ]
+ },
+ {
+  "title": "Yves Saint Laurent (designer)",
+  "ipa": "/- loʊ-/",
+  "context": "/- lɒ-/, /ˌiːv ˌsæ̃ lɔːˈrɒ̃/",
+  "expected": [
+   "ˌiːv ˌsæ̃ loʊˈrɒ̃"
+  ]
+ },
+ {
+  "title": "Yves Saint Laurent (fashion house)",
+  "ipa": "/- lɒ-/",
+  "context": "/ˌiːv ˌsæ̃ lɔːˈrɒ̃/, /- loʊ-/",
+  "expected": [
+   "ˌiːv ˌsæ̃ lɒˈrɒ̃"
+  ]
+ },
+ {
+  "title": "Yves Saint Laurent (fashion house)",
+  "ipa": "/- loʊ-/",
+  "context": "/- lɒ-/, /ˌiːv ˌsæ̃ lɔːˈrɒ̃/",
+  "expected": [
+   "ˌiːv ˌsæ̃ loʊˈrɒ̃"
+  ]
+ },
+ {
+  "title": "Zambia",
+  "ipa": "/ˈzæmbiə, ˈzɑːm-/",
+  "context": "",
+  "expected": [
+   "ˈzæmbiə",
+   "ˈzɑːmbiə"
+  ]
+ },
+ {
+  "title": "Zebra",
+  "ipa": "/ˈzɛbrəz, ˈziː-/",
+  "context": "/ˈziːbrəz/",
+  "expected": [
+   "ˈzɛbrəz",
+   "ˈziːbrəz"
+  ]
+ },
+ {
+  "title": "Zither",
+  "ipa": "/ˈzɪð.ər, ˈzɪθ.-/",
+  "context": "",
+  "expected": [
+   "ˈzɪð.ər",
+   "ˈzɪθ.ər"
+  ]
+ },
+ {
+  "title": "Zoology",
+  "ipa": "/zuˈ-/",
+  "context": "/zoʊˈɒlədʒi/",
+  "expected": [
+   "zuˈɒlədʒi"
+  ]
+ }
+]
